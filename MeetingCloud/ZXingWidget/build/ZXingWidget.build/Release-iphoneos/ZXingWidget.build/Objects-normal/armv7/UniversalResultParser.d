@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/UniversalResultParser.m \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/UniversalResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/../parsedResults/ParsedResult.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/CBarcodeFormat.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSTOResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TelResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLTOResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/PlainEmailResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/MeCardParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailDoCoMoResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BookmarkDoCoMoResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/GeoResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TextResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ProductResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BizcardResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/AddressBookAUResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/VCardResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMTPResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ISBNResultParser.h \
+  /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailAddressResultParser.h

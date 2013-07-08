@@ -1,0 +1,2292 @@
+TZXingWidget
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c00000000504916AD0000000000000110
+t1346967213
+s272
+
+N/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005075937E00000000003D2B80
+t1349882750
+s4008832
+
+N/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000507593820000000000228FD0
+t1349882754
+s2265040
+
+N/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005075938700000000003DCEF0
+t1349882759
+s4050672
+
+N/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000005075938600000000000015F7
+t1349882758
+s5623
+
+N/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000507593950000000000AB3D60
+t1349882773
+s11222368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000050F4CA7700000000003D4DF0
+t1358219895
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000050F4CA800000000000228FE0
+t1358219904
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000050F4CA8C00000000003DDFA0
+t1358219916
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c0000000050F4CA8C00000000000015F7
+t1358219916
+s5623
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000050F4CAC80000000000AB6230
+t1358219976
+s11231792
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/BarcodeFormat.cpp
+c000000004ED62C0800000000000003D4
+t1322658824
+s980
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Binarizer.cpp
+c000000004E9785380000000000000424
+t1318552888
+s1060
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/BinaryBitmap.cpp
+c000000004C445F240000000000000798
+t1279549220
+s1944
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/DecodeHints.cpp
+c000000004EAFF82E0000000000000F4D
+t1320155182
+s3917
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Exception.cpp
+c000000004E9785360000000000000409
+t1318552886
+s1033
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Exception.h
+c000000004E97853600000000000003E2
+t1318552886
+s994
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/FormatException.cpp
+c000000004E97853800000000000003F0
+t1318552888
+s1008
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/LuminanceSource.cpp
+c000000004ED62C0800000000000007CF
+t1322658824
+s1999
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/MultiFormatReader.cpp
+c000000004E9785380000000000000E0F
+t1318552888
+s3599
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/NotFoundException.cpp
+c000000004EBDF6FA0000000000000388
+t1321072378
+s904
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Reader.cpp
+c000000004C5CF910000000000000036E
+t1281161488
+s878
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ReaderException.cpp
+c000000004E97853800000000000003EF
+t1318552888
+s1007
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ReaderException.h
+c000000004E97853800000000000003B1
+t1318552888
+s945
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Result.cpp
+c000000004EAFF82E0000000000000693
+t1320155182
+s1683
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ResultPoint.cpp
+c000000004EAFF82E0000000000000DB6
+t1320155182
+s3510
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ResultPointCallback.cpp
+c000000004C7610760000000000000303
+t1282805878
+s771
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Array.cpp
+c000000004AFBB89400000000000002D8
+t1258010772
+s728
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Array.h
+c000000004E9F8314000000000000134F
+t1319076628
+s4943
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitArray.cpp
+c000000004EE6FA840000000000000CBC
+t1323760260
+s3260
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitArray.h
+c000000004EE6FA8400000000000007A5
+t1323760260
+s1957
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitMatrix.cpp
+c000000004EE6FA840000000000001164
+t1323760260
+s4452
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitMatrix.h
+c000000004E98D1D20000000000000910
+t1318638034
+s2320
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitSource.cpp
+c000000004EAFF82E0000000000000842
+t1320155182
+s2114
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/CharacterSetECI.cpp
+c000000004ED62C080000000000000BF0
+t1322658824
+s3056
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.cpp
+c000000004AFBB894000000000000039D
+t1258010772
+s925
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.h
+c000000004ED62C0800000000000011D7
+t1322658824
+s4567
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/DecoderResult.cpp
+c000000004E9785360000000000000603
+t1318552886
+s1539
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/DetectorResult.cpp
+c000000004E97853600000000000004EB
+t1318552886
+s1259
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/ECI.cpp
+c000000004ED62C080000000000000525
+t1322658824
+s1317
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/EdgeDetector.cpp
+c000000004BBACAAE00000000000013EF
+t1270532782
+s5103
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GlobalHistogramBinarizer.cpp
+c000000004EE6FA840000000000001931
+t1323760260
+s6449
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GreyscaleLuminanceSource.cpp
+c000000004C694C6A0000000000000A0E
+t1281969258
+s2574
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GreyscaleRotatedLuminanceSource.cpp
+c000000004C7610760000000000000911
+t1282805878
+s2321
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GridSampler.cpp
+c000000004EAFF82E0000000000001045
+t1320155182
+s4165
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/HybridBinarizer.cpp
+c000000004EE6FA840000000000001AC3
+t1323760260
+s6851
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/IllegalArgumentException.cpp
+c000000004AFBB89400000000000003B3
+t1258010772
+s947
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/IllegalArgumentException.h
+c000000004C5CF91000000000000003E4
+t1281161488
+s996
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/PerspectiveTransform.cpp
+c000000004BE56C5E0000000000001360
+t1273326686
+s4960
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp
+c000000004BE1432400000000000003DA
+t1273053988
+s986
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/StringUtils.cpp
+c000000004E9785360000000000001982
+t1318552886
+s6530
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/detector/MonochromeRectangleDetector.cpp
+c000000004EAFF82E0000000000001820
+t1320155182
+s6176
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/detector/WhiteRectangleDetector.cpp
+c000000004ED62C080000000000002384
+t1322658824
+s9092
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/GF256.cpp
+c000000004C0CB2440000000000000D3F
+t1275900484
+s3391
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/GF256Poly.cpp
+c000000004AFBB89200000000000016D1
+t1258010770
+s5841
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.cpp
+c000000004EE6FA8400000000000018B8
+t1323760260
+s6328
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/ReedSolomonException.cpp
+c000000004AFBB89200000000000003AE
+t1258010770
+s942
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/DataMatrixReader.cpp
+c000000004ED62C080000000000000955
+t1322658824
+s2389
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/Version.cpp
+c000000004EAFF82E0000000000001CEF
+t1320155182
+s7407
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/Version.h
+c000000004BE14324000000000000087D
+t1273053988
+s2173
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp
+c000000004EAFF82E0000000000002E74
+t1320155182
+s11892
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.h
+c000000004BE56C5E00000000000006F2
+t1273326686
+s1778
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp
+c000000004B8695980000000000000FD8
+t1267111320
+s4056
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.cpp
+c000000004EAFF82E000000000000364A
+t1320155182
+s13898
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/Decoder.cpp
+c000000004EAFF82E0000000000000CB6
+t1320155182
+s3254
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/CornerPoint.cpp
+c000000004EA19C12000000000000049C
+t1319214098
+s1180
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/Detector.cpp
+c000000004EAFF82E0000000000003A02
+t1320155182
+s14850
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/DetectorException.cpp
+c000000004EAFF82E0000000000000181
+t1320155182
+s385
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/MonochromeRectangleDetector.cpp
+c000000004C3BEAF80000000000001774
+t1278995192
+s6004
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/ByQuadrantReader.cpp
+c000000004EA19C1200000000000008AB
+t1319214098
+s2219
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/GenericMultipleBarcodeReader.cpp
+c000000004EA19C0E0000000000000FED
+t1319214094
+s4077
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/MultipleBarcodeReader.cpp
+c000000004EA19C0400000000000003C9
+t1319214084
+s969
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/QRCodeMultiReader.cpp
+c000000004EA19C120000000000000855
+t1319214098
+s2133
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/detector/MultiDetector.cpp
+c000000004EA19C1000000000000005F1
+t1319214096
+s1521
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp
+c000000004ED62C080000000000002503
+t1322658824
+s9475
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/Code128Reader.cpp
+c000000004ED62C080000000000003B77
+t1322658824
+s15223
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/Code39Reader.cpp
+c000000004ED62C080000000000002D11
+t1322658824
+s11537
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/EAN13Reader.cpp
+c000000004ED62C080000000000000BB3
+t1322658824
+s2995
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/EAN8Reader.cpp
+c000000004ED62C080000000000000923
+t1322658824
+s2339
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/ITFReader.cpp
+c000000004ED62C080000000000003239
+t1322658824
+s12857
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/MultiFormatOneDReader.cpp
+c000000004C761076000000000000095D
+t1282805878
+s2397
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/MultiFormatUPCEANReader.cpp
+c000000004C7610760000000000000D98
+t1282805878
+s3480
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/OneDReader.cpp
+c000000004EAFF82E0000000000001F36
+t1320155182
+s7990
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/OneDResultPoint.cpp
+c000000004EA19C000000000000000334
+t1319214080
+s820
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCAReader.cpp
+c000000004C7610760000000000000868
+t1282805878
+s2152
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCEANReader.cpp
+c000000004D985D1E000000000000274F
+t1301830942
+s10063
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCEReader.cpp
+c000000004ED62C0800000000000011A7
+t1322658824
+s4519
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/ErrorCorrectionLevel.cpp
+c000000004E97853A00000000000007AD
+t1318552890
+s1965
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/FormatInformation.cpp
+c000000004DC6229A000000000000127B
+t1304830618
+s4731
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/QRCodeReader.cpp
+c000000004EF04D180000000000000A03
+t1324371224
+s2563
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/Version.cpp
+c000000004C6B739A0000000000007245
+t1282110362
+s29253
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/BitMatrixParser.cpp
+c000000004DC6229A00000000000016FD
+t1304830618
+s5885
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DataBlock.cpp
+c000000004AFBB896000000000000100C
+t1258010774
+s4108
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DataMask.cpp
+c000000004ED62C080000000000000F2C
+t1322658824
+s3884
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.cpp
+c000000004E97853800000000000035B0
+t1318552888
+s13744
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/Decoder.cpp
+c000000004E9785380000000000000CB3
+t1318552888
+s3251
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/Mode.cpp
+c000000004E9785380000000000000ADD
+t1318552888
+s2781
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/AlignmentPattern.cpp
+c000000004EA19C1200000000000006E2
+t1319214098
+s1762
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/AlignmentPatternFinder.cpp
+c000000004E9785380000000000001B4B
+t1318552888
+s6987
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/Detector.cpp
+c000000004EA19C120000000000002E61
+t1319214098
+s11873
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPattern.cpp
+c000000004EA19C120000000000000A36
+t1319214098
+s2614
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPatternFinder.cpp
+c000000004E97853800000000000046C3
+t1318552888
+s18115
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPatternInfo.cpp
+c000000004AFBB89600000000000004C8
+t1258010774
+s1224
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/QREdgeDetector.cpp
+c000000004ED62C0800000000000016F9
+t1322658824
+s5881
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/ArrayAndStringCategories.m
+c000000004E3B82D0000000000000119B
+t1312522960
+s4507
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/CBarcodeFormat.mm
+c000000004E2D387C00000000000006A2
+t1311586428
+s1698
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/DataMatrixReader.mm
+c000000004C18C5E200000000000001A1
+t1276691938
+s417
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/Decoder.mm
+c000000004E2D387C0000000000002458
+t1311586428
+s9304
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/FormatReader.mm
+c000000004C6B739A0000000000000718
+t1282110362
+s1816
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatOneDReader.mm
+c000000004C63D56E00000000000001EB
+t1281611118
+s491
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatReader.mm
+c000000004BFDF9840000000000000462
+t1274935684
+s1122
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatUPCEANReader.mm
+c000000004C63D56E00000000000001F5
+t1281611118
+s501
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/OverlayView.m
+c000000004FFE527100000000000023EA
+t1342067313
+s9194
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/QRCodeReader.mm
+c000000004C18C5E20000000000000194
+t1276691938
+s404
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/TwoDDecoderResult.m
+c000000004DA7D824000000000000065D
+t1302845476
+s1629
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/ZXingWidgetController.m
+c000000004FFE45840000000000004489
+t1342064004
+s17545
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/AddContactAction.m
+c000000004D48CDE2000000000000253F
+t1296616930
+s9535
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/CallAction.m
+c000000004BFDF98200000000000006CF
+t1274935682
+s1743
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/EmailAction.m
+c000000004BFDF98200000000000008BE
+t1274935682
+s2238
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/OpenUrlAction.m
+c000000004BFDF982000000000000098C
+t1274935682
+s2444
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/ResultAction.m
+c000000004BFDF98200000000000003C1
+t1274935682
+s961
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/SMSAction.m
+c000000004F00610A0000000000000989
+t1325424906
+s2441
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/ShowMapAction.m
+c000000004BFDF9820000000000000748
+t1274935682
+s1864
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/BusinessCardParsedResult.m
+c000000004E2D387C0000000000000F69
+t1311586428
+s3945
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/EmailParsedResult.m
+c000000004D623D6C000000000000090E
+t1298283884
+s2318
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/GeoParsedResult.m
+c000000004BFDF9840000000000000581
+t1274935684
+s1409
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ISBNParsedResult.m
+c000000004E3B82D00000000000000345
+t1312522960
+s837
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ParsedResult.m
+c00000000507FF67E0000000000000AB1
+t1350563454
+s2737
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ProductParsedResult.m
+c000000004E2D387C0000000000000495
+t1311586428
+s1173
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/SMSParsedResult.m
+c000000004BFDF98400000000000005C3
+t1274935684
+s1475
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/TelParsedResult.m
+c000000004BFDF984000000000000050C
+t1274935684
+s1292
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/TextParsedResult.m
+c000000004BFDF984000000000000053D
+t1274935684
+s1341
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/URIParsedResult.m
+c000000004D985D1C000000000000083C
+t1301830940
+s2108
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/AddressBookAUResultParser.m
+c000000004E3B82D00000000000001008
+t1312522960
+s4104
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BizcardResultParser.m
+c000000004E3B82D00000000000000DA4
+t1312522960
+s3492
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BookmarkDoCoMoResultParser.m
+c000000004E3B82D000000000000005C1
+t1312522960
+s1473
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailAddressResultParser.m
+c000000004E3B82D00000000000001236
+t1312522960
+s4662
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailDoCoMoResultParser.m
+c000000004E3B82D000000000000005BE
+t1312522960
+s1470
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/GeoResultParser.m
+c000000004E2D387C000000000000053A
+t1311586428
+s1338
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ISBNResultParser.m
+c000000004E3B82D00000000000000644
+t1312522960
+s1604
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/MeCardParser.m
+c000000004E3B82D00000000000000B5B
+t1312522960
+s2907
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/PlainEmailResultParser.m
+c000000004E2D387C00000000000004BE
+t1311586428
+s1214
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ProductResultParser.mm
+c000000004FFE3B67000000000000083F
+t1342061415
+s2111
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ResultParser.m
+c000000004E3B82D00000000000000D0D
+t1312522960
+s3341
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSResultParser.m
+c000000004E2D387C0000000000000BC1
+t1311586428
+s3009
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSTOResultParser.m
+c000000004E2D387C0000000000000837
+t1311586428
+s2103
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMTPResultParser.m
+c000000004E3B82D000000000000007EF
+t1312522960
+s2031
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TelResultParser.m
+c000000004E2D387C000000000000052D
+t1311586428
+s1325
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TextResultParser.m
+c000000004E2D387C00000000000003EB
+t1311586428
+s1003
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLResultParser.m
+c000000004E2D387C0000000000000AAC
+t1311586428
+s2732
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLTOResultParser.m
+c000000004E2D387C0000000000000782
+t1311586428
+s1922
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/UniversalResultParser.m
+c000000004E3B82D00000000000000B40
+t1312522960
+s2880
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/VCardResultParser.m
+c000000004E3B82D00000000000003A98
+t1312522960
+s15000
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch
+c000000004BEBC4E200000000000000BC
+t1273742562
+s188
+i<Foundation/Foundation.h>
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/libZXingWidget.a
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AddContactAction.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AddressBookAUResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AlignmentPattern.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AlignmentPatternFinder.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Array.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ArrayAndStringCategories.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BarcodeFormat.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Binarizer.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BinaryBitmap.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitArray.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrix.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-D55D854587F6A342.o
+t1361273595
+s87452
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-F4D0C142C5C68F40.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitSource.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BizcardResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BookmarkDoCoMoResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BusinessCardParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ByQuadrantReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CBarcodeFormat.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CallAction.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CharacterSetECI.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Code128Reader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Code39Reader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CornerPoint.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Counted.o
+t1361273595
+s26420
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-E5D37F9728B6AF42.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataMask.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataMatrixReader-204FCD9F99460338.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataMatrixReader-646EB32A749E4354.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecodeHints.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecodedBitStreamParser-1362966748DF5F4D.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecodedBitStreamParser-DDA3FE7F85958430.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Decoder-3DF771F40A970F8E.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Decoder-46554BBABCF7F4F.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Decoder-CEA6BCD3E885A432.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecoderResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Detector-292D98A6DFDDF437.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Detector-6732A9C8A0C6B042.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DetectorException.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DetectorResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EAN13Reader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EAN8Reader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ECI.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EdgeDetector.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailAction.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailAddressResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailDoCoMoResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ErrorCorrectionLevel.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Exception.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FinderPattern.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FinderPatternFinder.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FinderPatternInfo.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FormatException.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FormatInformation.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FormatReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GF256.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GF256Poly.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GenericMultipleBarcodeReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GeoParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GeoResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GlobalHistogramBinarizer.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GreyscaleLuminanceSource.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GreyscaleRotatedLuminanceSource.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GridSampler.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/HybridBinarizer.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ISBNParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ISBNResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ITFReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/IllegalArgumentException.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/LuminanceSource.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MeCardParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Mode.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MonochromeRectangleDetector-56BCAF770006A442.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MonochromeRectangleDetector-E10520C0EBED712F.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiDetector.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFinderPatternFinder.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatOneDReader-5571717ED78E6356.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatOneDReader-FAF037E71C3E7E3F.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatReader-10FFACF133676F94.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatReader-A46D4C3401760638.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatUPCEANReader-91FDC9FA94C6F35F.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatUPCEANReader-EBF2F63B7F2E9E41.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultipleBarcodeReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/NotFoundException.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OneDReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OneDResultPoint.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OpenUrlAction.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OverlayView.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/PerspectiveTransform.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/PlainEmailResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ProductParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ProductResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QRCodeMultiReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QRCodeReader-701074CFE75EA141.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QRCodeReader-F470BE6889D3F76D.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QREdgeDetector.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Reader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ReaderException.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ReedSolomonDecoder.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ReedSolomonException.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Result.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultAction.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultPoint.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultPointCallback.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSAction.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSTOResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMTPResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ShowMapAction.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/StringUtils.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TelParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TelResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TextParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TextResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TwoDDecoderResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UPCAReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UPCEANReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UPCEReader.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/URIParsedResult.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/URLResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/URLTOResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UniversalResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/VCardResultParser.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Version-47BF6DCB62F6C444.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Version-611333244A4EC143.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/WhiteRectangleDetector.o
+t2
+s0
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ZXingWidget.LinkFileList
+c00000000512362FA0000000000005C02
+t1361273594
+s23554
+
+N/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ZXingWidgetController.o
+t2
+s0
+
+N/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bhcsxwuzykpgsiaryhkqskhawrbs/ZXingWidget_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-czijbhkrkojgtufpxnqyzltrdhai/ZXingWidget_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.pth
+t2
+s0
+
+N/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.pth
+t2
+s0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/BarcodeFormat.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Binarizer.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/BinaryBitmap.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/DecodeHints.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Exception.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/FormatException.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/LuminanceSource.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/MultiFormatReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/NotFoundException.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Reader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ReaderException.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Result.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ResultPoint.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ResultPointCallback.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Array.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitArray.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitMatrix.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitSource.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/CharacterSetECI.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/DecoderResult.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/DetectorResult.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/ECI.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/EdgeDetector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GlobalHistogramBinarizer.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GreyscaleLuminanceSource.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GreyscaleRotatedLuminanceSource.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GridSampler.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/HybridBinarizer.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/IllegalArgumentException.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/PerspectiveTransform.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/StringUtils.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/detector/MonochromeRectangleDetector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/detector/WhiteRectangleDetector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/GF256.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/GF256Poly.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/ReedSolomonException.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/DataMatrixReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/Version.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/Decoder.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/CornerPoint.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/Detector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/DetectorException.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/MonochromeRectangleDetector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/ByQuadrantReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/GenericMultipleBarcodeReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/MultipleBarcodeReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/QRCodeMultiReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/detector/MultiDetector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/Code128Reader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/Code39Reader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/EAN13Reader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/EAN8Reader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/ITFReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/MultiFormatOneDReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/MultiFormatUPCEANReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/OneDReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/OneDResultPoint.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCAReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCEANReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCEReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/ErrorCorrectionLevel.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/FormatInformation.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/QRCodeReader.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/Version.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/BitMatrixParser.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DataBlock.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DataMask.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/Decoder.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/Mode.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/AlignmentPattern.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/AlignmentPatternFinder.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/Detector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPattern.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPatternFinder.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPatternInfo.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/QREdgeDetector.cpp
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/ArrayAndStringCategories.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/CBarcodeFormat.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/DataMatrixReader.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/Decoder.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/FormatReader.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatOneDReader.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatReader.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatUPCEANReader.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/OverlayView.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/QRCodeReader.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/TwoDDecoderResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/ZXingWidgetController.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/AddContactAction.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/CallAction.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/EmailAction.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/OpenUrlAction.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/ResultAction.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/SMSAction.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/ShowMapAction.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/BusinessCardParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/EmailParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/GeoParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ISBNParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ProductParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/SMSParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/TelParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/TextParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/URIParsedResult.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/AddressBookAUResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BizcardResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BookmarkDoCoMoResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailAddressResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailDoCoMoResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/GeoResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ISBNResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/MeCardParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/PlainEmailResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ProductResultParser.mm
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSTOResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMTPResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TelResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TextResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLTOResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/UniversalResultParser.m
+r0
+
+CBuild AST from /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/VCardResultParser.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies04e5b2c10afbb641^35d0c4c20afbb641^---0#1#0#--18"Check dependencies36"BA43E695-CE93-4239-A8DD-3C1E5FE63933-
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AddContactAction.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/AddContactAction.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AddressBookAUResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/AddressBookAUResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AlignmentPattern.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/AlignmentPattern.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/AlignmentPatternFinder.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/AlignmentPatternFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Array.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Array.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ArrayAndStringCategories.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/ArrayAndStringCategories.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BarcodeFormat.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/BarcodeFormat.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Binarizer.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Binarizer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BinaryBitmap.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/BinaryBitmap.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitArray.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitArray.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrix.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitMatrix.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-D55D854587F6A342.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s382966394.920540
+e382966395.978404
+r1
+xCompileC
+xbuild/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-D55D854587F6A342.o
+x/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cppf2d0eb7a9ad3b641^45bd007c9ad3b641^---0#0#0#-19%DVTDocumentLocation2@176"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp0000000000000000^3687"CompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-D55D854587F6A342.o ../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk" -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator -include /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch -MMD -MT dependencies -MF /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-D55D854587F6A342.d --serialize-diagnostics /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-D55D854587F6A342.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp -o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-D55D854587F6A342.o36"0E9C462B-A897-447D-BBD1-77D3FE53C721-
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitMatrixParser-F4D0C142C5C68F40.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/BitMatrixParser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BitSource.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/BitSource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BizcardResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BizcardResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BookmarkDoCoMoResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/BookmarkDoCoMoResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/BusinessCardParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/BusinessCardParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ByQuadrantReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/ByQuadrantReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CBarcodeFormat.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/CBarcodeFormat.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CallAction.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/CallAction.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CharacterSetECI.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/CharacterSetECI.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Code128Reader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/Code128Reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Code39Reader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/Code39Reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/CornerPoint.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/CornerPoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Counted.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s382966394.920536
+e382966395.772857
+r1
+xCompileC
+xbuild/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Counted.o
+x/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Compile /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.cpp8604ec7a9ad3b641^57eec57b9ad3b641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.cpp0000000000000000^3547"CompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Counted.o ../cpp/core/src/zxing/common/Counted.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk" -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator -include /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch -MMD -MT dependencies -MF /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Counted.d --serialize-diagnostics /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Counted.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Counted.cpp -o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Counted.o36"269F934E-60D2-43C5-96E4-E1F25F1CA074-
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385551043.181013
+e385551045.670262
+r1
+xCompileC
+xbuild/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.o
+x/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp317e2ec30afbb641^2120bfc50afbb641^---0#0#0#-19%DVTDocumentLocation2@170"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp0000000000000000^3707"CompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.o ../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator -include /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch -MMD -MT dependencies -MF /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.d --serialize-diagnostics /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DataBlock.cpp -o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-C6604399EAE6C344.o36"6EE7C215-1FB5-4B98-992B-8E314E896A64-
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataBlock-E5D37F9728B6AF42.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DataBlock.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataMask.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DataMask.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataMatrixReader-204FCD9F99460338.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/DataMatrixReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DataMatrixReader-646EB32A749E4354.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/DataMatrixReader.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecodeHints.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/DecodeHints.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecodedBitStreamParser-1362966748DF5F4D.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecodedBitStreamParser-DDA3FE7F85958430.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Decoder-3DF771F40A970F8E.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/Decoder.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Decoder-46554BBABCF7F4F.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/Decoder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Decoder-CEA6BCD3E885A432.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/decoder/Decoder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DecoderResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/DecoderResult.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Detector-292D98A6DFDDF437.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/Detector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Detector-6732A9C8A0C6B042.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/Detector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DetectorException.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/DetectorException.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/DetectorResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/DetectorResult.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EAN13Reader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/EAN13Reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EAN8Reader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/EAN8Reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ECI.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/ECI.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EdgeDetector.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/EdgeDetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailAction.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/EmailAction.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailAddressResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailAddressResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailDoCoMoResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/EmailDoCoMoResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/EmailParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/EmailParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ErrorCorrectionLevel.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/ErrorCorrectionLevel.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Exception.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Exception.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FinderPattern.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPattern.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FinderPatternFinder.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPatternFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FinderPatternInfo.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/FinderPatternInfo.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FormatException.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/FormatException.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FormatInformation.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/FormatInformation.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/FormatReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/FormatReader.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GF256.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/GF256.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GF256Poly.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/GF256Poly.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GenericMultipleBarcodeReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/GenericMultipleBarcodeReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GeoParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/GeoParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GeoResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/GeoResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GlobalHistogramBinarizer.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GlobalHistogramBinarizer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GreyscaleLuminanceSource.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GreyscaleLuminanceSource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GreyscaleRotatedLuminanceSource.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GreyscaleRotatedLuminanceSource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/GridSampler.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/GridSampler.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/HybridBinarizer.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/HybridBinarizer.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ISBNParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ISBNParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ISBNResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ISBNResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ITFReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/ITFReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/IllegalArgumentException.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/IllegalArgumentException.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/LuminanceSource.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/LuminanceSource.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MeCardParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/MeCardParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Mode.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/decoder/Mode.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MonochromeRectangleDetector-56BCAF770006A442.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/detector/MonochromeRectangleDetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MonochromeRectangleDetector-E10520C0EBED712F.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/detector/MonochromeRectangleDetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiDetector.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/detector/MultiDetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFinderPatternFinder.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/detector/MultiFinderPatternFinder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatOneDReader-5571717ED78E6356.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatOneDReader.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatOneDReader-FAF037E71C3E7E3F.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/MultiFormatOneDReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatReader-10FFACF133676F94.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatReader.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatReader-A46D4C3401760638.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/MultiFormatReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatUPCEANReader-91FDC9FA94C6F35F.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/MultiFormatUPCEANReader.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultiFormatUPCEANReader-EBF2F63B7F2E9E41.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/MultiFormatUPCEANReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/MultipleBarcodeReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/MultipleBarcodeReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/NotFoundException.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/NotFoundException.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OneDReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/OneDReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OneDResultPoint.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/OneDResultPoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OpenUrlAction.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/OpenUrlAction.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/OverlayView.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/OverlayView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/PerspectiveTransform.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/PerspectiveTransform.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/PlainEmailResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/PlainEmailResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ProductParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/ProductParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ProductResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ProductResultParser.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QRCodeMultiReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/multi/qrcode/QRCodeMultiReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QRCodeReader-701074CFE75EA141.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/QRCodeReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QRCodeReader-F470BE6889D3F76D.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/QRCodeReader.mm normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/QREdgeDetector.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/detector/QREdgeDetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Reader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Reader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ReaderException.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ReaderException.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ReedSolomonDecoder.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ReedSolomonException.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/reedsolomon/ReedSolomonException.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Result.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/Result.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultAction.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/ResultAction.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/ResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultPoint.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ResultPoint.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ResultPointCallback.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/ResultPointCallback.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSAction.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/SMSAction.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/SMSParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMSTOResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMSTOResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/SMTPResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/SMTPResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ShowMapAction.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/actions/ShowMapAction.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385551043.180601
+e385551045.670300
+r1
+xCompileC
+xbuild/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.o
+x/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp30632ec30afbb641^f625bfc50afbb641^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp0000000000000000^3579"CompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.o ../cpp/core/src/zxing/common/Str.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator -include /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch -MMD -MT dependencies -MF /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.d --serialize-diagnostics /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/Str.cpp -o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Str.o36"626C31C7-A67A-4115-B874-A69533B29AEF-
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/StringUtils.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/StringUtils.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TelParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/TelParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TelResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TelResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TextParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/TextParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TextResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/TextResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/TwoDDecoderResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/TwoDDecoderResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UPCAReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCAReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UPCEANReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCEANReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UPCEReader.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/oned/UPCEReader.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/URIParsedResult.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/parsedResults/URIParsedResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/URLResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/URLTOResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/URLTOResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/UniversalResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/UniversalResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/VCardResultParser.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/resultParsers/VCardResultParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Version-47BF6DCB62F6C444.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/datamatrix/Version.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/Version-611333244A4EC143.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/qrcode/Version.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/WhiteRectangleDetector.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/../cpp/core/src/zxing/common/detector/WhiteRectangleDetector.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/Objects-normal/i386/ZXingWidgetController.o /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/Classes/ZXingWidgetController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/libZXingWidget.a normal i386
+r0
+
+CProcessPCH /Users/hesonghang/Library/Developer/Xcode/DerivedData/MeetingCloud-gpcfjlcdalwzieebvsxouuqfscxu/Index/PrecompiledHeaders/ZXingWidget_Prefix-dulykrxmqccloeftznhothtnnvav_ast/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/hesonghang/Library/Developer/Xcode/DerivedData/MeetingCloud-gpcfjlcdalwzieebvsxouuqfscxu/Index/PrecompiledHeaders/ZXingWidget_Prefix-gjoaxpzexatzivgtjlcstexismaf_ast/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-czijbhkrkojgtufpxnqyzltrdhai/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382966394.794414
+e382966396.281541
+r1
+xProcessPCH
+x/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-czijbhkrkojgtufpxnqyzltrdhai/ZXingWidget_Prefix.pch.pth
+xZXingWidget_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ZXingWidget_Prefix.pch51a4cb7a9ad3b641^0e14487c9ad3b641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch0000000000000000^3720"ProcessPCH /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-czijbhkrkojgtufpxnqyzltrdhai/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk" -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator --serialize-diagnostics /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-czijbhkrkojgtufpxnqyzltrdhai/ZXingWidget_Prefix.pch.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch -o /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-czijbhkrkojgtufpxnqyzltrdhai/ZXingWidget_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-czijbhkrkojgtufpxnqyzltrdhai/ZXingWidget_Prefix.pch.d36"F4A9AC8E-3C41-4F98-9388-0B4E414FB260-
+
+CProcessPCH /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385551042.795247
+e385551044.762108
+r1
+xProcessPCH
+x/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.pth
+xZXingWidget_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ZXingWidget_Prefix.pch54c6cbc20afbb641^c11ac3c40afbb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch0000000000000000^3613"ProcessPCH /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator --serialize-diagnostics /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch -o /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-empakkpqifzdwdhfomefrifpamyy/ZXingWidget_Prefix.pch.d36"A036FE9D-B242-4220-A332-9463C2873A46-
+
+CProcessPCH++ /Users/hesonghang/Library/Developer/Xcode/DerivedData/MeetingCloud-gpcfjlcdalwzieebvsxouuqfscxu/Index/PrecompiledHeaders/ZXingWidget_Prefix-bhdvgxyuzmdlbwetgyjqbqifnjsw_ast/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/hesonghang/Library/Developer/Xcode/DerivedData/MeetingCloud-gpcfjlcdalwzieebvsxouuqfscxu/Index/PrecompiledHeaders/ZXingWidget_Prefix-cmkshukcoexujpecuoclwevikcex_ast/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/hesonghang/Library/Developer/Xcode/DerivedData/MeetingCloud-gpcfjlcdalwzieebvsxouuqfscxu/Index/PrecompiledHeaders/ZXingWidget_Prefix-dsupihyyqugwdvfjqpwtksfxheqy_ast/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /Users/hesonghang/Library/Developer/Xcode/DerivedData/MeetingCloud-gpcfjlcdalwzieebvsxouuqfscxu/Index/PrecompiledHeaders/ZXingWidget_Prefix-eqvajqgwzwrjloacljgfrmoddebh_ast/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bhcsxwuzykpgsiaryhkqskhawrbs/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s382966394.794415
+e382966396.275009
+r1
+xProcessPCH++
+x/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bhcsxwuzykpgsiaryhkqskhawrbs/ZXingWidget_Prefix.pch.pth
+xZXingWidget_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ZXingWidget_Prefix.pch94a4cb7a9ad3b641^d368467c9ad3b641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch0000000000000000^3829"ProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bhcsxwuzykpgsiaryhkqskhawrbs/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x objective-c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-arc-abi -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk" -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator --serialize-diagnostics /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bhcsxwuzykpgsiaryhkqskhawrbs/ZXingWidget_Prefix.pch.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch -o /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bhcsxwuzykpgsiaryhkqskhawrbs/ZXingWidget_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bhcsxwuzykpgsiaryhkqskhawrbs/ZXingWidget_Prefix.pch.d36"6CB4D80B-B021-459E-BC91-08B4DD8C8A23-
+
+CProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s382966394.795027
+e382966394.913860
+r1
+xProcessPCH++
+x/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch.pth
+xZXingWidget_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ZXingWidget_Prefix.pchf7accb7a9ad3b641^aaf2e97a9ad3b641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch0000000000000000^3426"ProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode 4.5.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Applications/Xcode 4.5.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot "/Applications/Xcode 4.5.1.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk" -fexceptions -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator --serialize-diagnostics /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch -o /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-bqlwgijdfuwjklewmbhaeaezvxzq/ZXingWidget_Prefix.pch.d36"C041F781-7B1B-419F-BD9A-81CBD147EFF3-
+
+CProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385551042.795846
+e385551043.173648
+r1
+xProcessPCH++
+x/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.pth
+xZXingWidget_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ZXingWidget_Prefix.pchcae1cbc20afbb641^32742cc30afbb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch0000000000000000^3482"ProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator --serialize-diagnostics /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch -o /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-cdatgjxrrkwddhebnbgstnjrzwaq/ZXingWidget_Prefix.pch.d36"552723D9-52E8-4398-9D90-6397FE645210-
+
+CProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385551042.795259
+e385551044.862482
+r1
+xProcessPCH++
+x/var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.pth
+xZXingWidget_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Precompile ZXingWidget_Prefix.pch43c6cbc20afbb641^1dcadcc40afbb641^---0#0#0#-19%DVTDocumentLocation2@138"file://localhost/Users/hesonghang/Documents/%E7%A6%8F%E5%AF%8C/%E4%BC%9A%E8%AE%AE%E4%BA%91/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch0000000000000000^3709"ProcessPCH++ /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.pth ZXingWidget_Prefix.pch normal i386 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=4.0 -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-generated-files.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-own-target-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-all-target-headers.hmap -iquote /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/ZXingWidget-project-headers.hmap -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator/include -I../cpp/core/src -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources/i386 -I/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/ZXingWidget.build/Release-iphonesimulator/ZXingWidget.build/DerivedSources -Wall -Wextra -Werror -Wno-unused-parameter -F/Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/build/Release-iphonesimulator --serialize-diagnostics /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.dia -c /Users/hesonghang/Documents/福富/会议云/MeetingCloud/ZXingWidget/ZXingWidget_Prefix.pch -o /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/lx/z76_t_8937vb180tcypfhd5r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/ZXingWidget_Prefix-glvfsmdwhcdbqmcpqrdxnzklinpg/ZXingWidget_Prefix.pch.d36"EB6F781E-A6CD-4668-8EDB-C0DBCDE5D1B6-
+
