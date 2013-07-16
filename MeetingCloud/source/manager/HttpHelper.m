@@ -14,6 +14,7 @@
 #import "UITools.h"
 #import "GDataXMLNode.h"
 #import "ShareManager.h"
+#import "TalkmessageGroup.h"
 
 @interface HttpHelper(Private)
 
@@ -21,10 +22,13 @@
 
 -(NSArray *) httpQuerylistByUrlkey:(NSString *)urlkey postDics:(NSDictionary *)postdics keyName:(NSString *)keyName toolsBean:(NSObject *) toolsBean;
 
+-(NSArray *) httpQuerylistByUrlkey:(NSString *)urlkey postDicsIncludePage:(NSDictionary *)postdics toolsBean:(NSObject *) toolsBean;
+
 -(NSObject *) httpQuerySingleByUrlkey:(NSString *)urlkey postDics:(NSDictionary *)postdics keyName:(NSString *)keyName toolsBean:(NSObject *) toolsBean;
 
 -(NSDictionary *) dicFromResponseString:(NSString *)responseString;
 -(NSArray *) arrayFromResponseString:(NSString *)responseString keyName:(NSString *)keyName toolsBean:(NSObject *) toolsBean;
+-(NSArray *) arrayFromResponseStringIncludePage:(NSString *)responseString toolsBean:(NSObject *) toolsBean;
 -(NSObject *) objectFromResponseString:(NSString *)responseString keyName:(NSString *)keyName toolsBean:(NSObject *) toolsBean;
 -(NSString *) resonseStringByUrlkey:(NSString *)urlkey postDics:(NSDictionary *)postdics;
 -(NSString *) resonseStringByUrlkey:(NSString *)urlkey postDics:(NSDictionary *)postdics file:(NSString *)file filekey:(NSString *)filekey;
@@ -39,7 +43,7 @@
 
 
 @implementation HttpHelper
-@synthesize error = _error,resultState=_resultState,msg = _msg;
+@synthesize error = _error,resultState=_resultState,msg = _msg,isLastPage = _isLastPage;
 
 -(void) dealloc{
     [_error release];
@@ -163,13 +167,28 @@
 }
 
 /**
+ * 读取你云我云分组列表
+ */
+-(NSArray *)getTalkmessageGroupByConferenceId:(NSString *)tdConferenceId pageNum:(NSString *)pageNum
+{
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:tdConferenceId forKey:@"tdConferenceId"];
+    [dic setObject:pageNum forKey:@"pageNum"];
+    TalkmessageGroup *toolbean = [[[TalkmessageGroup alloc] init] autorelease];
+    return [self httpQuerylistByUrlkey:URL_TALKMESSAGEGROUP_GET postDicsIncludePage:dic toolsBean:toolbean];
+}
+
+/**
  * 读取你云我云信息列表
  */
--(NSArray *) getTalkmessagesByConferenceId:(NSString *) conferencedId{
+-(NSArray *) getTalkmessagesByConferenceId:(NSString *) conferencedId groupId:(NSString *)groupId pageNum:(NSString *)pageNum
+{
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-    [dic setObject:conferencedId forKey:@"conferenceId"];
+    [dic setObject:conferencedId forKey:@"tdConferenceId"];
+    [dic setObject:groupId forKey:@"tmGroupId"];
+    [dic setObject:pageNum forKey:@"pageNum"];
     Talkmessage *toolbean = [[[Talkmessage alloc]init]autorelease];
-    return [self httpQuerylistByUrlkey:URL_TALKMESSAGES_GET postDics:dic keyName:@"talkmessages" toolsBean:toolbean];
+    return [self httpQuerylistByUrlkey:URL_TALKMESSAGESPAGE_GET postDicsIncludePage:dic toolsBean:toolbean];
 }
 
 /**
@@ -489,6 +508,15 @@
             if([@"1" isEqualToString:returnCode]){
                 _resultState = YES;
                 self.msg = [dictionary objectForKey:@"msg"];
+                NSDictionary *page = [dictionary objectForKey:@"page"];
+                if (page) {
+                    NSNumber *isLastPage = [page objectForKey:@"isLastPage"];
+                    if (isLastPage.intValue == 1) {
+                        _isLastPage = YES;
+                    } else {
+                        _isLastPage = NO;
+                    }
+                }
             }else{
                 _error = [[NSError alloc]initWithDomain:ERROR_MYTYPE code:1 userInfo:[NSDictionary dictionaryWithObject:[dictionary objectForKey:@"msg"] forKey:ERROR_MESSAGE]];
             }
@@ -513,6 +541,24 @@
                     }
                 }
             }  
+        }
+    }
+    return beans;
+}
+
+-(NSArray *) arrayFromResponseStringIncludePage:(NSString *)responseString toolsBean:(NSObject *) toolsBean{
+    NSMutableArray *beans = [NSMutableArray array];
+    NSDictionary *dictionary = [self dicFromResponseString:responseString];
+    NSDictionary *data = [dictionary objectForKey:@"page"];
+    if(data && _resultState){
+        NSArray *array = [data objectForKey:@"result"];
+        if(array && [array count]>0){
+            for (NSDictionary *dic in array) {
+                if([toolsBean respondsToSelector:@selector(dic2Object:)]){
+                    NSObject *bean = [toolsBean performSelector:@selector(dic2Object:) withObject:dic];
+                    [beans addObject:bean];
+                }
+            }
         }
     }
     return beans;
@@ -631,6 +677,16 @@
     return beans;   
 }
 
+-(NSArray *) httpQuerylistByUrlkey:(NSString *)urlkey postDicsIncludePage:(NSDictionary *)postdics toolsBean:(NSObject *) toolsBean{
+    NSArray *beans = nil;
+    NSString *responseString = [self resonseStringByUrlkey:urlkey postDics:postdics];
+    NSLog(@"getTalkmessage responseString == %@",responseString);
+    if (responseString) {
+        beans = [self arrayFromResponseStringIncludePage:responseString toolsBean:toolsBean];
+    }
+    return beans;
+}
+
 -(NSObject *) httpQuerySingleByUrlkey:(NSString *)urlkey postDics:(NSDictionary *)postdics keyName:(NSString *)keyName toolsBean:(NSObject *) toolsBean{
     NSObject *bean = nil;
     NSString *responseString = [self resonseStringByUrlkey:urlkey postDics:postdics];
@@ -642,7 +698,7 @@
 
 -(NSString *) getServerUrlByKey:(NSString *) key{
     NSDictionary *dic = [UITools loadDictionary:URLFILENAME];
-    NSString *serverurl = [dic objectForKey:SERVER_URL];
+    NSString *serverurl = [dic objectForKey:TEST_URL];
     NSString *methodUrl = [dic objectForKey:key];
     return [NSString stringWithFormat:serverurl,methodUrl];
 }

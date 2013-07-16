@@ -14,8 +14,9 @@
 #import "UIButton+WebCache.h"
 #import "MWPhotoBrowser.h"
 #import "ChatCommentViewController.h"
+#import "SVPullToRefresh.h"
 
-#define kImageScaleRate 0.3
+#define kImageScaleRate 0.2
 #define kImageCompressRate 0.5
 
 @interface ChatRoomViewController (private)
@@ -46,6 +47,7 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        _firstEnter = YES;
     }
     return self;
 }
@@ -63,15 +65,15 @@
 
 -(void) viewDidAppear:(BOOL)animated{
     [self textFileShowOrHide];
+    _firstEnter = NO;
 }
 
 -(void) viewWillAppear:(BOOL)animated{
-    MBProgressHUD *hud = [[MBProgressHUD alloc]initWithView:self.view];
-    hud.delegate = self;
-    hud.labelText = @"请稍候...";
-    [self.view addSubview:hud];
-    [hud release];
-    [hud showWhileExecuting:@selector(queryTalkMessages) onTarget:self withObject:nil animated:YES];
+    if (_firstEnter) {
+        [self svPullToRefresh];
+        [self reloadTalkMessages];
+    }
+    
 }
 
 
@@ -98,7 +100,53 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)showMenu:(id)cell
+{
+    [cell becomeFirstResponder];
+//    UIMenuItem *copyMenu = [[UIMenuItem alloc] initWithTitle:@"拷贝" action:@selector(cut:)];
+    UIMenuController *menu = [UIMenuController sharedMenuController];
+//    [menu setMenuItems:[NSArray arrayWithObjects:copyMenu, nil]];
+    float screenHeight = [UIScreen mainScreen].bounds.size.height;
+    float cellHeight = [cell frame].origin.y;
+    int pointRadio = cellHeight / screenHeight;
+    float pointHeight = cellHeight - (screenHeight * pointRadio);
+    [menu setTargetRect:CGRectMake(160, pointHeight - 44, 60, 30) inView:self.view];
+    [menu setMenuVisible:YES animated:YES];
+}
 
+- (void)svPullToRefresh
+{
+    __block typeof(self) bself = self;
+    
+    [self.tableView addPullToRefreshWithActionHandler:^{
+        [bself reloadTalkMessages];
+    }];
+    
+    [self.tableView addInfiniteScrollingWithActionHandler:^{
+        [bself loadTalkMessages];
+    }];
+    
+    [self.tableView.pullToRefreshView setTitle:@"下拉刷新" forState:SVPullToRefreshStateAll];
+    [self.tableView.pullToRefreshView setTitle:@"松开刷新" forState:SVPullToRefreshStateTriggered];
+    [self.tableView.pullToRefreshView setTitle:@"正在加载" forState:SVPullToRefreshStateLoading];
+}
+
+- (void)loadTalkMessages
+{
+    page++;
+    MBProgressHUD *hud = [[MBProgressHUD alloc]initWithView:self.view];
+    hud.delegate = self;
+    hud.labelText = @"请稍候...";
+    [self.view addSubview:hud];
+    [hud release];
+    [hud showWhileExecuting:@selector(queryTalkMessages) onTarget:self withObject:nil animated:YES];
+}
+
+- (void)reloadTalkMessages
+{
+    page = 0;
+    [self loadTalkMessages];
+}
 
 #pragma mark -Action
 -(IBAction)backBtnClicked:(id)sender{
@@ -158,6 +206,83 @@
 
 #pragma mark -UIImagePickerControllerDelegate
 
+- (UIImage *)fixOrientation:(UIImage *)aImage {
+    
+    // No-op if the orientation is already correct
+    if (aImage.imageOrientation == UIImageOrientationUp)
+        return aImage;
+    
+    // We need to calculate the proper transformation to make the image upright.
+    // We do it in 2 steps: Rotate if Left/Right/Down, and then flip if Mirrored.
+    CGAffineTransform transform = CGAffineTransformIdentity;
+    
+    switch (aImage.imageOrientation) {
+        case UIImageOrientationDown:
+        case UIImageOrientationDownMirrored:
+            transform = CGAffineTransformTranslate(transform, aImage.size.width, aImage.size.height);
+            transform = CGAffineTransformRotate(transform, M_PI);
+            break;
+            
+        case UIImageOrientationLeft:
+        case UIImageOrientationLeftMirrored:
+            transform = CGAffineTransformTranslate(transform, aImage.size.width, 0);
+            transform = CGAffineTransformRotate(transform, M_PI_2);
+            break;
+            
+        case UIImageOrientationRight:
+        case UIImageOrientationRightMirrored:
+            transform = CGAffineTransformTranslate(transform, 0, aImage.size.height);
+            transform = CGAffineTransformRotate(transform, -M_PI_2);
+            break;
+        default:
+            break;
+    }
+    
+    switch (aImage.imageOrientation) {
+        case UIImageOrientationUpMirrored:
+        case UIImageOrientationDownMirrored:
+            transform = CGAffineTransformTranslate(transform, aImage.size.width, 0);
+            transform = CGAffineTransformScale(transform, -1, 1);
+            break;
+            
+        case UIImageOrientationLeftMirrored:
+        case UIImageOrientationRightMirrored:
+            transform = CGAffineTransformTranslate(transform, aImage.size.height, 0);
+            transform = CGAffineTransformScale(transform, -1, 1);
+            break;
+        default:
+            break;
+    }
+    
+    // Now we draw the underlying CGImage into a new context, applying the transform
+    // calculated above.
+    CGContextRef ctx = CGBitmapContextCreate(NULL, aImage.size.width, aImage.size.height,
+                                             CGImageGetBitsPerComponent(aImage.CGImage), 0,
+                                             CGImageGetColorSpace(aImage.CGImage),
+                                             CGImageGetBitmapInfo(aImage.CGImage));
+    CGContextConcatCTM(ctx, transform);
+    switch (aImage.imageOrientation) {
+        case UIImageOrientationLeft:
+        case UIImageOrientationLeftMirrored:
+        case UIImageOrientationRight:
+        case UIImageOrientationRightMirrored:
+            // Grr...
+            CGContextDrawImage(ctx, CGRectMake(0,0,aImage.size.height,aImage.size.width), aImage.CGImage);
+            break;
+            
+        default:
+            CGContextDrawImage(ctx, CGRectMake(0,0,aImage.size.width,aImage.size.height), aImage.CGImage);
+            break;
+    }
+    
+    // And now we just create a new UIImage from the drawing context
+    CGImageRef cgimg = CGBitmapContextCreateImage(ctx);
+    UIImage *img = [UIImage imageWithCGImage:cgimg];
+    CGContextRelease(ctx);
+    CGImageRelease(cgimg);
+    return img;
+}
+
 - (UIImage *)scaleImage:(UIImage *)image toScale:(float)scaleSize
 {
     UIGraphicsBeginImageContext(CGSizeMake(image.size.width*scaleSize,image.size.height*scaleSize));
@@ -169,8 +294,8 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info{
     UIImage *image = [info objectForKey:UIImagePickerControllerOriginalImage];//
-    
-    //UIImage *cmpImg = [self scaleImage:image toScale:kImageScaleRate];//縮圖
+    image = [self fixOrientation:image];
+    image = [self scaleImage:image toScale:kImageScaleRate];//縮圖
     NSData *blobImage = UIImageJPEGRepresentation(image, kImageCompressRate);//圖片壓縮為NSData
 
     [self dismissModalViewControllerAnimated:YES];
@@ -226,6 +351,7 @@
         {
             cell=[[[ChatCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CHATCELL_CONTENT]autorelease];
             cell.delegate = self;
+            cell.menuDelegate = self;
         }
     }else {
         cell = [tableView dequeueReusableCellWithIdentifier:CHATCELL_IMAGE];
@@ -322,9 +448,19 @@
         _error = nil;
     }else{
         [_tableView reloadData];
-        if (_talkMessageList && [_talkMessageList count]>0) {
-            [_tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:NO]; 
+        if (page == 1) {
+            [self.tableView scrollsToTop];
         }
+        [self.tableView.infiniteScrollingView stopAnimating];
+        [self.tableView.pullToRefreshView stopAnimating];
+        if (_isLastPage) {
+            [self.tableView setShowsInfiniteScrolling:NO];
+        } else {
+            [self.tableView setShowsInfiniteScrolling:YES];
+        }
+//        if (_talkMessageList && [_talkMessageList count]>0) {
+//            [_tableView scrollToRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] atScrollPosition:UITableViewScrollPositionTop animated:NO]; 
+//        }
         needReload_flag = NO;
     }
     
@@ -472,7 +608,7 @@
 -(void) queryTalkMessages{
     needReload_flag = YES;
     HttpHelper *helper = [[HttpHelper alloc]init];
-    NSArray *array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId];
+    NSArray *array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId groupId:_talkmessageGroup.groupId pageNum:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:page]]];
     if (helper.error) {
         _error = [helper.error retain];
     }else {
@@ -481,7 +617,9 @@
             _talkMessageList = nil;
         }
         _talkMessageList = [array retain];
+        _isLastPage = helper.isLastPage;
     }
 }
+
 
 @end

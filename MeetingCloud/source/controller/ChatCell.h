@@ -15,15 +15,19 @@
 #define CHATCELL_CONTENT @"CHATCELL_CONTENT"
 #define CHATCELL_IMAGE_HEIGHT 195
 
+@protocol ChatCellMenuDelegate;
+
 @protocol ChatCellDelegate;
 
 @interface ChatCell : UITableViewCell{
     FaceView *faceView;
     MyButton *btn_image;
+    UILongPressGestureRecognizer *longPressGestureRecognizer;
 }
 
 @property(nonatomic,retain) Talkmessage *message;
 @property(nonatomic,assign) id<ChatCellDelegate> delegate;
+@property(nonatomic,assign) id<ChatCellMenuDelegate> menuDelegate;
 
 +(CGFloat) heightByContent:(NSString *)content;
 
@@ -34,5 +38,11 @@
 -(void) imageClicked:(ChatCell *)cell;
 
 -(void) commentClicked:(ChatCell *)cell;
+
+@end
+
+@protocol ChatCellMenuDelegate <NSObject>
+
+- (void)showMenu:(id)cell;
 
 @end

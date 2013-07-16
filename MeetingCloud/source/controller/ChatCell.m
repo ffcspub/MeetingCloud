@@ -155,6 +155,11 @@
             faceView.content = message.content;
             iv_center.frame = CGRectMake(iv_center.frame.origin.x, iv_center.frame.origin.y, iv_center.frame.size.width, faceView.frame.size.height - 20 + 20);
             iv_buttom.center = CGPointMake(iv_buttom.center.x, 90 + faceView.frame.size.height - 20);
+            self.userInteractionEnabled = YES;
+            longPressGestureRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPressGesture:)];
+            //    longPressGestureRecognizer.numberOfTouchesRequired = 2;
+            longPressGestureRecognizer.minimumPressDuration = 1.0;
+            [self addGestureRecognizer:longPressGestureRecognizer];
         }else {
             [btn_image setImageWithURL:[NSURL URLWithString:message.picturenameThum]];
         }
@@ -186,5 +191,44 @@
     }
 }
 
+#pragma mark - Copy
+
+- (void)handleLongPressGesture:(UILongPressGestureRecognizer *)paramSender
+{
+    if ([paramSender isEqual:longPressGestureRecognizer]) {
+        if (paramSender.numberOfTouchesRequired == 1) {
+//            CGPoint touchPoint = [paramSender locationOfTouch:0 inView:paramSender.view];
+//            CGRect rect = CGRectMake(touchPoint.x, touchPoint.y, 60, 30);
+//            float screenHeight = [UIScreen mainScreen].bounds.size.height;
+//            float screenWidth = [UIScreen mainScreen].bounds.size.width / 2;
+//            float cellHeight = self.frame.origin.y;
+//            int pointRadio = cellHeight / screenHeight;
+//            float pointHeight = cellHeight - (screenHeight * pointRadio);
+//            CGRect rect = CGRectMake(screenWidth, pointHeight, 60, 30);
+//            NSValue *aRect = [NSValue valueWithCGRect:rect];
+            [_menuDelegate performSelector:@selector(showMenu:) withObject:self];
+        }
+    }
+}
+
+- (BOOL)canBecomeFirstResponder
+{
+    [super canBecomeFirstResponder];
+    return YES;
+}
+
+- (BOOL)canPerformAction:(SEL)action withSender:(id)sender
+{
+    if (action == @selector(cut:)) {
+        return YES;
+    }
+    return [super canPerformAction:action withSender:sender];
+}
+
+- (void)cut:(id)sender
+{
+    UIPasteboard *pasteBoard = [UIPasteboard generalPasteboard];
+    [pasteBoard setString:_message.content];
+}
 
 @end

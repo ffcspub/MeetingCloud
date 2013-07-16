@@ -5,7 +5,7 @@
 	<key>SERVER_URL</key>
 	<string>http://120.36.0.50:7010/hyy/rest?method=%@</string>
 	<key>TEST_URL</key>
-	<string>http://120.36.0.50:7999/hyy/rest?method=%@</string>
+	<string>http://120.36.0.52:7050/hyy/rest?method=%@</string>
 	<key>URL_USER_ADD</key>
 	<string>hyy.userinfo.add</string>
 	<key>URL_USER_PWD</key>
@@ -22,6 +22,12 @@
 	<string>hyy.agendas.get</string>
 	<key>URL_AGENDAINFOS_GET</key>
 	<string>hyy.agendaInfos.get</string>
+	<key>URL_TALKMESSAGEGROUP_GET</key>
+	<string>hyy.talkmessagegroups.page</string>
+	<key>URL_TALKMESSAGEGROUP_ADD</key>
+	<string>hyy.talkmessagegroup.add</string>
+	<key>URL_TALKMESSAGESPAGE_GET</key>
+	<string>hyy.tmgrouptalkmessages.page</string>
 	<key>URL_TALKMESSAGES_ADD</key>
 	<string>hyy.talkmessage.add</string>
 	<key>URL_TALKMESSAGES_GET</key>

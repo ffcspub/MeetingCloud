@@ -12,6 +12,7 @@
 #import "ShareManager.h"
 #import "YiChenViewController.h"
 #import "DinnerViewController.h"
+#import "ChatRoomGroupViewController.h"
 #import "ChatRoomViewController.h"
 #import "GroupViewController.h"
 #import "ContactViewController.h"
@@ -339,13 +340,15 @@
 }
 
 -(void) loadChatRoomView{
-    NSString *nibName = @"ChatRoomViewController";
-    if (IS_SCREEN_4_INCH) {
-        nibName = @"ChatRoomViewController_iPhone5";
-    }
-    ChatRoomViewController *vlc = [[ChatRoomViewController alloc]initWithNibName:nibName bundle:nil];
+//    NSString *nibName = @"ChatRoomViewController";
+//    if (IS_SCREEN_4_INCH) {
+//        nibName = @"ChatRoomViewController_iPhone5";
+//    }
+//    ChatRoomViewController *vlc = [[ChatRoomViewController alloc]initWithNibName:nibName bundle:nil];
+//    [self.navigationController pushViewController:vlc animated:YES];
+//    [vlc release];
+    ChatRoomGroupViewController *vlc = [[[ChatRoomGroupViewController alloc] initWithNibName:@"ChatRoomGroupViewController" bundle:nil] autorelease];
     [self.navigationController pushViewController:vlc animated:YES];
-    [vlc release];
 }
 
 -(void) loadGroupView{

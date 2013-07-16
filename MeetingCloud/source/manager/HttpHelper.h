@@ -15,6 +15,7 @@
 @property(nonatomic,retain) NSError *error;
 @property(nonatomic,retain) NSString *msg;
 @property(nonatomic,assign) BOOL resultState;
+@property(nonatomic,assign) BOOL isLastPage;
 
 /**
  * 用户申请加入会议
@@ -59,10 +60,14 @@
 -(NSArray *) getAgendaInfosByConferenceId:(NSString *) conferencedId agendDate:(NSString *)agendDate;
 
 /**
+ * 读取你云我云分组列表
+ */
+-(NSArray *)getTalkmessageGroupByConferenceId:(NSString *)tdConferenceId pageNum:(NSString *)pageNum;
+
+/**
  * 读取你云我云信息列表
  */
--(NSArray *) getTalkmessagesByConferenceId:(NSString *) conferencedId;
-
+-(NSArray *) getTalkmessagesByConferenceId:(NSString *) conferencedId groupId:(NSString *)groupId pageNum:(NSString *)pageNum;
 /**
  * 读取你云我云信息(单个)
  */	
