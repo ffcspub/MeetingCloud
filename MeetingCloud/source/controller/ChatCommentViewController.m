@@ -13,6 +13,7 @@
 #import "ChatCommentCell.h"
 #import "UIButton+WebCache.h"
 #import "MWPhotoBrowser.h"
+#import "SVPullToRefresh.h"
 
 #define kImageScaleRate 0.3
 #define kImageCompressRate 0.5
@@ -22,7 +23,6 @@
 -(void) sendMessage;
 -(void) sendPhotos;
 -(void) queryTalkComment;
--(void) loadMessage;
 @end
 
 @implementation ChatCommentViewController
@@ -59,13 +59,17 @@
     _pageGirdView.widthInsert = 9.0;
     _pageGirdView.heightInsert = 10.0;
     [_pageGirdView reloadData];
-    MBProgressHUD *hud = [[MBProgressHUD alloc]initWithView:self.view];
-    hud.delegate = self;
-    [self.view addSubview:hud];
-    [hud release];
-    [hud showWhileExecuting:@selector(loadMessage) onTarget:self withObject:nil animated:YES];
+    
+    _talkCommentList = [[NSMutableArray alloc] init];
     //[_tableView launchRefreshing];
     // Do any additional setup after loading the view from its nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self svPullToRefresh];
+    [self reloadTalkComment];
 }
 
 -(void) viewDidAppear:(BOOL)animated{
@@ -96,7 +100,39 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)loadTalkComment
+{
+    page++;
+    MBProgressHUD *hud = [[MBProgressHUD alloc]initWithView:self.view];
+    hud.delegate = self;
+    hud.labelText = @"请稍候...";
+    [self.view addSubview:hud];
+    [hud release];
+    [hud showWhileExecuting:@selector(queryTalkComment) onTarget:self withObject:nil animated:YES];
+}
 
+- (void)reloadTalkComment
+{
+    page = 0;
+    [self loadTalkComment];
+}
+
+- (void)svPullToRefresh
+{
+    __block typeof(self) bself = self;
+    
+    [self.tableView addPullToRefreshWithActionHandler:^{
+        [bself reloadTalkComment];
+    }];
+    
+    [self.tableView addInfiniteScrollingWithActionHandler:^{
+        [bself loadTalkComment];
+    }];
+    
+    [self.tableView.pullToRefreshView setTitle:@"下拉刷新" forState:SVPullToRefreshStateAll];
+    [self.tableView.pullToRefreshView setTitle:@"松开刷新" forState:SVPullToRefreshStateTriggered];
+    [self.tableView.pullToRefreshView setTitle:@"正在加载" forState:SVPullToRefreshStateLoading];
+}
 
 #pragma mark -Action
 -(IBAction)backBtnClicked:(id)sender{
@@ -132,12 +168,7 @@
 }
 
 -(IBAction)referceBtnClicked:(id)sender{
-    MBProgressHUD *hud = [[MBProgressHUD alloc]initWithView:self.view];
-    hud.delegate = self;
-    hud.labelText = @"请稍候...";
-    [self.view addSubview:hud];
-    [hud release];
-    [hud showWhileExecuting:@selector(loadMessage) onTarget:self withObject:nil animated:YES];
+    [self reloadTalkComment];
 }
 
 -(IBAction)photoLibraryBtnClicked:(id)sender{
@@ -335,6 +366,16 @@
         _error = nil;
     }else{
         [_tableView reloadData];
+        if (page == 1) {
+            [self.tableView scrollsToTop];
+        }
+        [self.tableView.infiniteScrollingView stopAnimating];
+        [self.tableView.pullToRefreshView stopAnimating];
+        if (isLastPage) {
+            [self.tableView setShowsInfiniteScrolling:NO];
+        } else {
+            [self.tableView setShowsInfiniteScrolling:YES];
+        }
         needReload_flag = NO;
     }
     
@@ -437,7 +478,7 @@
     if (helper.error) {
         _error = [helper.error retain];
     }else {
-        [self loadMessage];
+        [self reloadTalkComment];
     }
     [helper release];
     _textField.text = nil;
@@ -447,33 +488,18 @@
 -(void) queryTalkComment{
     needReload_flag = YES;
     HttpHelper *helper = [[HttpHelper alloc]init];
-    NSArray *array =  [helper getTalkcommendsByTalkmessageId:_message.messageId];
+    NSArray *array =  [helper getTalkcommendsByTalkmessageId:_message.messageId pageNum:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:page]]];
     if (helper.error) {
         _error = [helper.error retain];
     }else {
         if (_talkCommentList) {
-            [_talkCommentList release];
-            _talkCommentList = nil;
+            if (page == 1) {
+                [_talkCommentList removeAllObjects];
+            }
         }
-        _talkCommentList = [array retain];
+        [_talkCommentList addObjectsFromArray:array];
+        isLastPage = helper.isLastPage;
     }
-}
-
--(void) loadMessage{
-    HttpHelper *helper = [[HttpHelper alloc]init];
-    Talkmessage *message = [helper getTalkmessageByConferenceId:[ShareManager getInstance].conference.conferenceId TalkmessageId:_message.messageId];
-    if (helper.error) {
-        _error = [helper.error retain];
-    }
-    else {
-        if (_message) {
-            [_message release];
-            _message = nil;
-        }
-        _message = [message retain];
-        [self queryTalkComment];
-    }
-    [helper release];
 }
 
 @end

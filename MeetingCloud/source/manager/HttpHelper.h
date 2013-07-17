@@ -60,6 +60,11 @@
 -(NSArray *) getAgendaInfosByConferenceId:(NSString *) conferencedId agendDate:(NSString *)agendDate;
 
 /**
+ * 新增你云我云分组
+ */
+- (void)addTalkmessageGroupByUserid:(NSString *)userId conferenceId:(NSString *)conferenceId groupName:(NSString *)groupName intro:(NSString *)intro;
+
+/**
  * 读取你云我云分组列表
  */
 -(NSArray *)getTalkmessageGroupByConferenceId:(NSString *)tdConferenceId pageNum:(NSString *)pageNum;
@@ -99,7 +104,7 @@
 /**
  * 获取你云我云评论
  */
--(NSArray *) getTalkcommendsByTalkmessageId:(NSString *)talkmessageId;
+-(NSArray *) getTalkcommendsByTalkmessageId:(NSString *)talkmessageId pageNum:(NSString *)pageNum;
 
 /**
  * 删除你云我云评论

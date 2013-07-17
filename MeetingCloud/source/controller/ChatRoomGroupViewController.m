@@ -13,6 +13,7 @@
 #import "SVPullToRefresh.h"
 #import "TalkmessageGroup.h"
 #import "ChatRoomViewController.h"
+#import "CreateChatRoomGroupViewController.h"
 
 @interface ChatRoomGroupViewController ()
 
@@ -156,12 +157,27 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TalkmessageGroup *talkmessageGroup = [_talkMessageGroupList objectAtIndex:indexPath.row];
-    ChatRoomViewController *vlc = [[[ChatRoomViewController alloc] initWithNibName:@"ChatRoomViewController" bundle:nil] autorelease];
+    NSString *nibName = @"ChatRoomViewController";
+    if (IS_SCREEN_4_INCH) {
+        nibName = @"ChatRoomViewController_iPhone5";
+    }
+    ChatRoomViewController *vlc = [[ChatRoomViewController alloc]initWithNibName:nibName bundle:nil];
     vlc.talkmessageGroup = talkmessageGroup;
     [self.navigationController pushViewController:vlc animated:YES];
+    [vlc release];
 }
 
 - (IBAction)backBtnClick:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+- (IBAction)addGroupClick:(id)sender {
+    if ([@"1" isEqualToString:[ShareManager getInstance].userInfo.isCheckinMgr]) {
+        CreateChatRoomGroupViewController *vlc = [[[CreateChatRoomGroupViewController alloc] initWithNibName:@"CreateChatRoomGroupViewController" bundle:nil] autorelease];
+        [self.navigationController pushViewController:vlc animated:YES];
+    } else {
+        [UITools easyAlert:@"抱歉！您不是管理员，不能创建分组。" cancelButtonTitle:@"确定"];
+    }
+}
+
 @end

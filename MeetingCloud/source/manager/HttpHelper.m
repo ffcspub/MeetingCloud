@@ -167,6 +167,21 @@
 }
 
 /**
+ * 新增你云我云分组
+ */
+- (void)addTalkmessageGroupByUserid:(NSString *)userId conferenceId:(NSString *)conferenceId groupName:(NSString *)groupName intro:(NSString *)intro
+{
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:userId forKey:@"userId"];
+    [dic setObject:conferenceId forKey:@"conferenceId"];
+    [dic setObject:groupName forKey:@"groupName"];
+    if (intro) {
+        [dic setObject:intro forKey:@"intro"];
+    }
+    [self dicByUrlkey:URL_TALKMESSAGEGROUP_ADD postDics:dic];
+}
+
+/**
  * 读取你云我云分组列表
  */
 -(NSArray *)getTalkmessageGroupByConferenceId:(NSString *)tdConferenceId pageNum:(NSString *)pageNum
@@ -258,11 +273,12 @@
 /**
  * 获取你云我云评论
  */
--(NSArray *) getTalkcommendsByTalkmessageId:(NSString *)talkmessageId{
+-(NSArray *) getTalkcommendsByTalkmessageId:(NSString *)talkmessageId pageNum:(NSString *)pageNum{
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
-    [dic setObject:talkmessageId forKey:@"talkmessageId"];
+    [dic setObject:talkmessageId forKey:@"tdTalkmessageId"];
+    [dic setObject:pageNum forKey:@"pageNum"];
     Talkcomment *toolbean = [[[Talkcomment alloc]init]autorelease];
-    return [self httpQuerylistByUrlkey:URL_TALKCOMMENTS_GET postDics:dic keyName:@"talkcomments" toolsBean:toolbean];
+    return [self httpQuerylistByUrlkey:URL_TALKCOMMENTS_GET postDicsIncludePage:dic toolsBean:toolbean];
 }
 
 /**

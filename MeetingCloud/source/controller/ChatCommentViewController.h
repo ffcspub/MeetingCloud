@@ -14,11 +14,13 @@
 
 @interface ChatCommentViewController : UIViewController<PageGirdViewDataSource,MBProgressHUDDelegate,ChatCellDelegate,UIImagePickerControllerDelegate,UITableViewDataSource,UITableViewDelegate>{
     NSError *_error;
-    NSArray *_talkCommentList;
+    NSMutableArray *_talkCommentList;
     BOOL needReload_flag;
     UIImagePickerController* _picker;
     NSData *_imageData;
     ChatCell *_currentCell;
+    int page;
+    BOOL isLastPage;
 }
 
 @property(nonatomic,retain) Talkmessage *message;

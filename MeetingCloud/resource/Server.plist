@@ -39,7 +39,7 @@
 	<key>URL_TALKCOMMENT_ADD</key>
 	<string>hyy.talkcomment.add</string>
 	<key>URL_TALKCOMMENTS_GET</key>
-	<string>hyy.talkcomments.get</string>
+	<string>hyy.talkcomments.page</string>
 	<key>URL_TALKMESSAGE_DEL</key>
 	<string>hyy.talkmessage.remove</string>
 	<key>URL_TALKCOMMENT_DEL</key>

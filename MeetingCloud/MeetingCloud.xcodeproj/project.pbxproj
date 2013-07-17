@@ -966,6 +966,8 @@
 		B73E232F178B908600358C00 /* ChatRoomGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73E232D178B908600358C00 /* ChatRoomGroupViewController.m */; };
 		B73E2330178B908600358C00 /* ChatRoomGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B73E232E178B908600358C00 /* ChatRoomGroupViewController.xib */; };
 		B73E2336178B9BF500358C00 /* TalkmessageGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B73E2335178B9BF500358C00 /* TalkmessageGroup.m */; };
+		B7491B2B179643A400F3609B /* CreateChatRoomGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7491B29179643A300F3609B /* CreateChatRoomGroupViewController.m */; };
+		B7491B2C179643A400F3609B /* CreateChatRoomGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7491B2A179643A400F3609B /* CreateChatRoomGroupViewController.xib */; };
 		B7C0705F178ABDED006397C7 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C0705C178ABDED006397C7 /* UIScrollView+SVInfiniteScrolling.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		B7C07060178ABDED006397C7 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C0705E178ABDED006397C7 /* UIScrollView+SVPullToRefresh.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		B7F0C4E7174A100600403A15 /* ChatCommentViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7F0C4E6174A100600403A15 /* ChatCommentViewController_iPhone5.xib */; };
@@ -2186,6 +2188,9 @@
 		B73E232E178B908600358C00 /* ChatRoomGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRoomGroupViewController.xib; sourceTree = "<group>"; };
 		B73E2334178B9BF500358C00 /* TalkmessageGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TalkmessageGroup.h; sourceTree = "<group>"; };
 		B73E2335178B9BF500358C00 /* TalkmessageGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TalkmessageGroup.m; sourceTree = "<group>"; };
+		B7491B28179643A300F3609B /* CreateChatRoomGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateChatRoomGroupViewController.h; sourceTree = "<group>"; };
+		B7491B29179643A300F3609B /* CreateChatRoomGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateChatRoomGroupViewController.m; sourceTree = "<group>"; };
+		B7491B2A179643A400F3609B /* CreateChatRoomGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateChatRoomGroupViewController.xib; sourceTree = "<group>"; };
 		B7C0705A178ABDED006397C7 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
 		B7C0705B178ABDED006397C7 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
 		B7C0705C178ABDED006397C7 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
@@ -2738,6 +2743,9 @@
 				B73E232C178B908600358C00 /* ChatRoomGroupViewController.h */,
 				B73E232D178B908600358C00 /* ChatRoomGroupViewController.m */,
 				B73E232E178B908600358C00 /* ChatRoomGroupViewController.xib */,
+				B7491B28179643A300F3609B /* CreateChatRoomGroupViewController.h */,
+				B7491B29179643A300F3609B /* CreateChatRoomGroupViewController.m */,
+				B7491B2A179643A400F3609B /* CreateChatRoomGroupViewController.xib */,
 				18916F1D159C48D500AA8E3B /* ChatRoomViewController.h */,
 				18916F1E159C48D600AA8E3B /* ChatRoomViewController.m */,
 				18916F1F159C48D600AA8E3B /* ChatRoomViewController.xib */,
@@ -4579,6 +4587,7 @@
 				B72919FC175DD3CF000136CA /* Default.png in Resources */,
 				B72919FD175DD3CF000136CA /* Default@2x.png in Resources */,
 				B73E2330178B908600358C00 /* ChatRoomGroupViewController.xib in Resources */,
+				B7491B2C179643A400F3609B /* CreateChatRoomGroupViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4899,6 +4908,7 @@
 				B7C07060178ABDED006397C7 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				B73E232F178B908600358C00 /* ChatRoomGroupViewController.m in Sources */,
 				B73E2336178B9BF500358C00 /* TalkmessageGroup.m in Sources */,
+				B7491B2B179643A400F3609B /* CreateChatRoomGroupViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

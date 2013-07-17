@@ -19,4 +19,5 @@
 
 @property (retain, nonatomic) IBOutlet UITableView *tableView;
 - (IBAction)backBtnClick:(id)sender;
+- (IBAction)addGroupClick:(id)sender;
 @end

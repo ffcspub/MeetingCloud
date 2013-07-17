@@ -590,7 +590,11 @@
 -(void) sendPhotos{
     HttpHelper *helper = [[HttpHelper alloc]init];
     NSString *picturename = [NSString stringWithFormat:@"%@.png",[UITools myDate:@"yyyyMMddHHmmssmi" dates:0]];
-    [helper addTalkmessageByUserid:[ShareManager getInstance].userInfo.userId conferenceId:[ShareManager getInstance].conference.conferenceId imsi:[UITools getImisi] content:@"" picturename:picturename fileData:_imageData];
+    if ([[ShareManager getInstance].conference.isTalkmessageGrouping isEqualToString:@"Y"]) {
+        [helper addTalkmessageByUserid:[ShareManager getInstance].userInfo.userId conferenceId:[ShareManager getInstance].conference.conferenceId talkmessageGroupId:_talkmessageGroup.groupId imsi:[UITools getImisi] content:@"" picturename:picturename fileData:_imageData];
+    } else {
+        [helper addTalkmessageByUserid:[ShareManager getInstance].userInfo.userId conferenceId:[ShareManager getInstance].conference.conferenceId talkmessageGroupId:nil imsi:[UITools getImisi] content:@"" picturename:picturename fileData:_imageData];
+    }
     [_imageData release];
     _imageData = nil;
     if (helper.error) {
