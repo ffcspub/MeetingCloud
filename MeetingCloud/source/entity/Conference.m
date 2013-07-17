@@ -31,6 +31,7 @@
 @synthesize cloudCfgMap;
 @synthesize headimg;
 @synthesize doapplyfor;
+@synthesize isTalkmessageGrouping;
 
 
 -(void) dealloc{
@@ -54,6 +55,7 @@
     [cloudCfgMap release];
     [headimg release];
     [doapplyfor release];
+    [isTalkmessageGrouping release];
     [super dealloc];
 }
 
@@ -79,6 +81,7 @@
     toolbean.cloudCfgMap = [dic objectForKey:@"cloudCfgMap"];
     toolbean.headimg = [dic objectToStringForKey:@"headimg"];
     toolbean.doapplyfor = [dic objectToStringForKey:@"doapplyfor"];
+    toolbean.isTalkmessageGrouping = [dic objectToStringForKey:@"isTalkmessageGrouping"];
     return toolbean;
 }
 

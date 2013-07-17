@@ -76,7 +76,7 @@
 /**
  * 你云我云发言接口
  */	
--(void) addTalkmessageByUserid:(NSString *)userId conferenceId:(NSString *)conferenceId imsi:(NSString *)imsi content:(NSString *)content picturename:(NSString *) picturename fileData:(NSData *)fileData;
+-(void) addTalkmessageByUserid:(NSString *)userId conferenceId:(NSString *)conferenceId talkmessageGroupId:(NSString *)talkmessageGroupId imsi:(NSString *)imsi content:(NSString *)content picturename:(NSString *) picturename fileData:(NSData *)fileData;
 
 
 /**

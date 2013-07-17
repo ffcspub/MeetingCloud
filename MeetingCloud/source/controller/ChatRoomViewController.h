@@ -15,7 +15,7 @@
 
 @interface ChatRoomViewController : UIViewController<PageGirdViewDataSource,MBProgressHUDDelegate,ChatCellDelegate,UIImagePickerControllerDelegate,UITableViewDataSource,UITableViewDelegate,ChatCellMenuDelegate>{
     NSError *_error;
-    NSArray *_talkMessageList;
+    NSMutableArray *_talkMessageList;
     BOOL needReload_flag;
     UIImagePickerController* _picker;
     NSData *_imageData;

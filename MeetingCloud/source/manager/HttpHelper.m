@@ -179,13 +179,15 @@
 }
 
 /**
- * 读取你云我云信息列表
+ * 读取你云我云分页信息列表
  */
 -(NSArray *) getTalkmessagesByConferenceId:(NSString *) conferencedId groupId:(NSString *)groupId pageNum:(NSString *)pageNum
 {
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     [dic setObject:conferencedId forKey:@"tdConferenceId"];
-    [dic setObject:groupId forKey:@"tmGroupId"];
+    if (groupId) {
+        [dic setObject:groupId forKey:@"tmGroupId"];
+    }
     [dic setObject:pageNum forKey:@"pageNum"];
     Talkmessage *toolbean = [[[Talkmessage alloc]init]autorelease];
     return [self httpQuerylistByUrlkey:URL_TALKMESSAGESPAGE_GET postDicsIncludePage:dic toolsBean:toolbean];
@@ -206,10 +208,13 @@
 /**
  * 你云我云发言接口
  */	
--(void) addTalkmessageByUserid:(NSString *)userId conferenceId:(NSString *)conferenceId imsi:(NSString *)imsi content:(NSString *)content picturename:(NSString *) picturename fileData:(NSData *)fileData {
+-(void) addTalkmessageByUserid:(NSString *)userId conferenceId:(NSString *)conferenceId talkmessageGroupId:(NSString *)talkmessageGroupId imsi:(NSString *)imsi content:(NSString *)content picturename:(NSString *) picturename fileData:(NSData *)fileData {
     NSMutableDictionary *dic = [NSMutableDictionary dictionary];
     [dic setObject:userId forKey:@"tdUserId"];
     [dic setObject:conferenceId forKey:@"tdConferenceId"];
+    if (talkmessageGroupId) {
+        [dic setObject:talkmessageGroupId forKey:@"talkmessageGroupId"];
+    }
     [dic setObject:imsi forKey:@"imsi"];
     [dic setObject:content forKey:@"content"];
     [self dicByUrlkey:URL_TALKMESSAGES_ADD postDics:dic picturename:picturename fileData:fileData filekey:@"fileItem"];

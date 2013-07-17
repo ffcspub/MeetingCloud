@@ -34,6 +34,7 @@
 @synthesize tableView = _tableView;
 
 -(void) dealloc{
+    [_talkMessageList release];
     [_baseSV release];
     [_textField release];
     [_pageGirdView release];
@@ -59,6 +60,7 @@
     _pageGirdView.widthInsert = 9.0;
     _pageGirdView.heightInsert = 10.0;
     [_pageGirdView reloadData];
+    _talkMessageList = [[NSMutableArray alloc] init];
     //[_tableView launchRefreshing];
     // Do any additional setup after loading the view from its nib.
 }
@@ -186,7 +188,7 @@
     hud.labelText = @"正在发送中，请稍候...";
     [self.view addSubview:hud];
     [hud release];
-    [hud showWhileExecuting:@selector(queryTalkMessages) onTarget:self withObject:nil animated:YES];
+    [hud showWhileExecuting:@selector(reloadTalkMessages) onTarget:self withObject:nil animated:YES];
 }
 
 -(IBAction)photoLibraryBtnClicked:(id)sender{
@@ -557,25 +559,30 @@
 
 -(void) sendMessage{
     HttpHelper *helper = [[HttpHelper alloc]init];
-    [helper addTalkmessageByUserid:[ShareManager getInstance].userInfo.userId conferenceId:[ShareManager getInstance].conference.conferenceId imsi:[UITools getImisi] content:_textField.text picturename:@"" fileData:nil];
+    if ([[ShareManager getInstance].conference.isTalkmessageGrouping isEqualToString:@"Y"]) {
+        [helper addTalkmessageByUserid:[ShareManager getInstance].userInfo.userId conferenceId:[ShareManager getInstance].conference.conferenceId talkmessageGroupId:_talkmessageGroup.groupId imsi:[UITools getImisi] content:_textField.text picturename:@"" fileData:nil];
+    } else {
+        [helper addTalkmessageByUserid:[ShareManager getInstance].userInfo.userId conferenceId:[ShareManager getInstance].conference.conferenceId talkmessageGroupId:nil imsi:[UITools getImisi] content:_textField.text picturename:@"" fileData:nil];
+    }
     [_imageData release];
     _imageData = nil;
     if (helper.error) {
         _error = [helper.error retain];
     }else {
-       NSArray *array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId];
-        if (helper.error) {
-            _error = [helper.error retain];
-            needReload_flag = NO;
-        }else {
-            needReload_flag = YES;
-            if (_talkMessageList) {
-                [_talkMessageList release];
-                _talkMessageList = nil;
-            }
-            _talkMessageList = [array retain];
-            _textField.text = nil;
-        }
+//       NSArray *array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId];
+//        if (helper.error) {
+//            _error = [helper.error retain];
+//            needReload_flag = NO;
+//        }else {
+//            needReload_flag = YES;
+//            if (_talkMessageList) {
+//                [_talkMessageList release];
+//                _talkMessageList = nil;
+//            }
+//            _talkMessageList = [array retain];
+//            _textField.text = nil;
+//        }
+        [self reloadTalkMessages];
     }
     [helper release];
 }
@@ -589,34 +596,45 @@
     if (helper.error) {
         _error = [helper.error retain];
     }else {
-        NSArray *array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId];
-        if (helper.error) {
-            _error = [helper.error retain];
-            needReload_flag = NO;
-        }else {
-            if (_talkMessageList) {
-                [_talkMessageList release];
-                _talkMessageList = nil;
-            }
-            _talkMessageList = [array retain];
-            //_textField.text = nil;
-        }
+//        NSArray *array = [NSArray array];
+//        if ([[ShareManager getInstance].conference.isTalkmessageGrouping isEqualToString:@"1"]) {
+//            array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId groupId:_talkmessageGroup.groupId pageNum:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:1]]];
+//        } else {
+//            array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId groupId:nil pageNum:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:1]]];
+//        }
+//        if (helper.error) {
+//            _error = [helper.error retain];
+//            needReload_flag = NO;
+//        }else {
+//            page = 1;
+//            [_talkMessageList removeAllObjects];
+//            [_talkMessageList addObjectsFromArray:array];
+//            _isLastPage = helper.isLastPage;
+//        }
+        [self reloadTalkMessages];
     }
     [helper release];
 }
 
 -(void) queryTalkMessages{
     needReload_flag = YES;
-    HttpHelper *helper = [[HttpHelper alloc]init];
-    NSArray *array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId groupId:_talkmessageGroup.groupId pageNum:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:page]]];
+    HttpHelper *helper = [[[HttpHelper alloc]init] autorelease];
+    NSArray *array;
+    if ([[ShareManager getInstance].conference.isTalkmessageGrouping isEqualToString:@"Y"]) {
+        array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId groupId:_talkmessageGroup.groupId pageNum:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:page]]];
+    } else {
+        array =  [helper getTalkmessagesByConferenceId:[ShareManager getInstance].conference.conferenceId groupId:nil pageNum:[NSString stringWithFormat:@"%@",[NSNumber numberWithInt:page]]];
+    }
+    
     if (helper.error) {
         _error = [helper.error retain];
     }else {
         if (_talkMessageList) {
-            [_talkMessageList release];
-            _talkMessageList = nil;
+            if (page == 1) {
+                [_talkMessageList removeAllObjects];
+            }
         }
-        _talkMessageList = [array retain];
+        [_talkMessageList addObjectsFromArray:array];
         _isLastPage = helper.isLastPage;
     }
 }

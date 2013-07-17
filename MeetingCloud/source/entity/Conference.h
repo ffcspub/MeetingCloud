@@ -34,6 +34,7 @@
 @property(nonatomic,retain) NSDictionary *cloudCfgMap;//各种云扩展信息
 @property(nonatomic,retain) NSString *headimg;//会议头像图片
 @property(nonatomic,retain) NSString *doapplyfor;//是否支持申请
+@property(nonatomic,retain) NSString *isTalkmessageGrouping;//是否分组你云我云
 
 -(NSObject *) dic2Object:(NSDictionary *)dic;
 
