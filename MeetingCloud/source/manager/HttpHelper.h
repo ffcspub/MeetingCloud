@@ -131,6 +131,10 @@
  */
 -(NSArray *) getUserInfosByConferenceId:(NSString *)conferenceId;
 
+/**
+ * 查询通讯录分页列表信息
+ */
+-(NSArray *) getUserGroupPageByConferenceId:(NSString *) conferenceId ContactgroupId:(NSString *)groupId pageNum:(NSString *)pageNum;
 
 /**
  * 查询收件箱信息
@@ -161,6 +165,11 @@
  * 获取共享资料
  */
 -(NSArray *) getConferenceFilesByConferenceId:(NSString *)conferenceId userId:(NSString *)userId;
+
+/**
+ * 获取共享资料分页列表
+ */
+-(NSArray *) getConferenceFilesPageByConferenceId:(NSString *)conferenceId userId:(NSString *)userId pageNum:(NSString *)pageNum;
 
 /**
  * 提交建议
@@ -201,5 +210,10 @@
  * 签到
  */
 -(void) checkCode:(int)scanType content:(NSString  *)content;
+
+/**
+ * 会议签到
+ */
+-(void) checkCodeByUserId:(NSString *)userId qrcode:(NSString *)qrcode imei:(NSString *)imei;
 
 @end

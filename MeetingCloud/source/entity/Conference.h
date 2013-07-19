@@ -35,6 +35,7 @@
 @property(nonatomic,retain) NSString *headimg;//会议头像图片
 @property(nonatomic,retain) NSString *doapplyfor;//是否支持申请
 @property(nonatomic,retain) NSString *isTalkmessageGrouping;//是否分组你云我云
+@property(nonatomic,retain) NSString *checkinType;//签到方式
 
 -(NSObject *) dic2Object:(NSDictionary *)dic;
 

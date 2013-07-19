@@ -13,6 +13,7 @@
 #import "UITools.h"
 #import "ContactInfoViewController.h"
 #import "FTCoreTextView.h"
+#import "SVPullToRefresh.h"
 
 #define CONTACTCELLIDENTIFIER @"CONTACTCELLIDENTIFIER"
 
@@ -25,6 +26,8 @@
 -(void) indexPinyin;
 
 -(void) reloadSearch;
+
+-(void)reloadDatas;
 
 @end
 
@@ -57,6 +60,21 @@
     [super viewDidLoad];
     [self reloadSearch];
     // Do any additional setup after loading the view from its nib.
+    
+    _datas = [[NSMutableArray alloc] init];
+    
+    __block typeof(self) bself = self;
+    
+    [self.tableView addInfiniteScrollingWithActionHandler:^{
+        [bself loadData];
+    }];
+    [self.tableView addPullToRefreshWithActionHandler:^{
+        [bself reloadDatas];
+    }];
+    
+    [self.tableView.pullToRefreshView setTitle:@"下拉刷新" forState:SVPullToRefreshStateAll];
+    [self.tableView.pullToRefreshView setTitle:@"松开刷新" forState:SVPullToRefreshStateTriggered];
+    [self.tableView.pullToRefreshView setTitle:@"正在加载" forState:SVPullToRefreshStateLoading];
 }
 
 - (void)viewDidUnload
@@ -79,6 +97,7 @@
                      selector:@selector(textFieldChange)     
                          name:UITextFieldTextDidChangeNotification     
                        object:nil];
+    
 }
 
 -(void) viewWillDisappear:(BOOL)animated{
@@ -92,59 +111,12 @@
 }
 
 #pragma mark - UITableViewDelegate/UITableViewDataSource
-//- (NSArray *)sectionIndexTitlesForTableView:(UITableView *)tableView
-//{
-//    NSMutableArray *toBeReturned = [[[NSMutableArray alloc]init]autorelease];
-//    for(char c = 'A';c<='Z';c++)
-//        [toBeReturned addObject:[NSString stringWithFormat:@"%c",c]];
-//    return toBeReturned;
-//}
-
-//- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-//    NSMutableArray *tempArr=[[NSMutableArray alloc] initWithArray:[_aIndexDictionary allKeys]];
-//    
-//    NSString *indexStr = [[tempArr sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)]  objectAtIndex:section];
-//    if ([_aIndexDictionary objectForKey:indexStr]) {
-//        NSArray *array = [_aIndexDictionary objectForKey:indexStr];
-//        if ([array count]>0) {
-//            return indexStr;
-//        }
-//    }
-//    return nil;
-//}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 50;
 }
 
-//- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
-//    return [[_aIndexDictionary allKeys]  count];
-//}
-
-
-//- (NSInteger)tableView:(UITableView *)tableView sectionForSectionIndexTitle:(NSString *)title atIndex:(NSInteger)index
-//{
-//    
-//    NSInteger count = 0;
-//    
-//    for(NSString *character in [[_aIndexDictionary allKeys] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)])
-//        
-//    {
-//        if([character isEqualToString:title])
-//        {
-//            return count;
-//        }
-//        count ++;
-//    }
-//    return 0;
-//}
-
-
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    NSMutableArray *tempArr=[[NSMutableArray alloc] initWithArray:[_aIndexDictionary allKeys]];
-//    NSString *str = [[tempArr sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)]  objectAtIndex:indexPath.section];
-//    NSArray *array = [_aIndexDictionary objectForKey:str] ;
     UserInfo *user = [_resultDatas objectAtIndex:indexPath.row];
     if(selectMode){
         NSMutableArray *array = [ShareManager getInstance].personArray;
@@ -169,19 +141,10 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-//    NSMutableArray *tempArr=[[NSMutableArray alloc] initWithArray:[_aIndexDictionary allKeys]];
-//    NSString *str = [[tempArr sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)]  objectAtIndex:section];
-//    NSArray *array = [_aIndexDictionary objectForKey:str] ;
     return [_resultDatas count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-    
-//    NSMutableArray *tempArr=[[NSMutableArray alloc] initWithArray:[_aIndexDictionary allKeys]];
-//    
-//    NSString *indexStr = [[tempArr sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)]  objectAtIndex:indexPath.section];
-//    NSArray *array = (NSArray *)[_aIndexDictionary objectForKey:indexStr];
-//    
     UITableViewCell *cell = nil;
     cell = [tableView dequeueReusableCellWithIdentifier:CONTACTCELLIDENTIFIER];
     if (!cell) {
@@ -311,17 +274,38 @@
 @implementation ContactViewController(private)
 
 -(void) loadData{
+    pageNum++;
     HttpHelper *helper = [[HttpHelper alloc]init];
-    NSArray *array = [helper getUserInfosByConferenceId:[ShareManager getInstance].conference.conferenceId];
+    NSArray *array = [helper getUserGroupPageByConferenceId:[ShareManager getInstance].conference.conferenceId ContactgroupId:@"1" pageNum:[NSString stringWithFormat:@"%i", pageNum]];
     if (helper.error) {
         _error = [helper.error retain];
     }else {
-        _datas = [array retain];
+        if (_datas) {
+            if (pageNum == 1) {
+                [_datas removeAllObjects];
+            }
+        }
+        [_datas addObjectsFromArray:array];
     }
+    isLastPage = helper.isLastPage;
     [helper release];
     [self search];
     [_tf_search resignFirstResponder];
+    
+    [self.tableView.infiniteScrollingView stopAnimating];
+    [self.tableView.pullToRefreshView stopAnimating];
+    if (isLastPage) {
+        [self.tableView setShowsInfiniteScrolling:NO];
+    } else {
+        [self.tableView setShowsInfiniteScrolling:YES];
+    }
 }
+
+-(void)reloadDatas{
+    pageNum = 0;
+    [self loadData];
+}
+
 
 -(void) search{
     if (_resultDatas) {
@@ -357,6 +341,7 @@
             }
         }
         _resultDatas = array;
+    [self.tableView reloadData];
     
     //[self indexPinyin];
 }
@@ -387,7 +372,7 @@
     hud.delegate =  self;
     [self.view addSubview:hud];
     [hud release];
-    [hud showWhileExecuting:@selector(loadData) onTarget:self withObject:nil animated:YES];
+    [hud showWhileExecuting:@selector(reloadDatas) onTarget:self withObject:nil animated:YES];
 }
 
 

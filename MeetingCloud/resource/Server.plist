@@ -50,6 +50,10 @@
 	<string>hyy.dinnerplanInfos.get</string>
 	<key>URL_DINNERTABLES_GET</key>
 	<string>hyy.dinnertables.get</string>
+	<key>URL_USERGROUP_GET</key>
+	<string>hyy.usergroup.page</string>
+	<key>URL_USERGROUPPAGE_GET</key>
+	<string>hyy.users.page</string>
 	<key>URL_USERINFOS_GET</key>
 	<string>hyy.userinfos.get</string>
 	<key>URL_PRIVATEMESSAGE_GETRECEIVE</key>
@@ -64,6 +68,8 @@
 	<string>hyy.clientpushs.get</string>
 	<key>URL_CONFERENCEFILES_GET</key>
 	<string>hyy.conference.files.get</string>
+	<key>URL_CONFERENCEFILESPAGE_GET</key>
+	<string>hyy.conferencefiles.page</string>
 	<key>URL_RECOMMEND_ADD</key>
 	<string>hyy.recommend.add</string>
 	<key>URL_UISTYLES_GET</key>
@@ -80,5 +86,7 @@
 	<string>http://120.36.0.50/intf/checkin?code=%d;%@</string>
 	<key>URL_LOADCODE</key>
 	<string>http://120.36.0.50/intf/getDimension?code=%@;%@;%@</string>
+	<key>URL_CONFERENCECHECK</key>
+	<string>hyy.qrcode.check</string>
 </dict>
 </plist>

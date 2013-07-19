@@ -504,7 +504,7 @@
 
 -(void) checkVersion{
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-    HttpHelper *httphelper = [[HttpHelper alloc]init];
+    HttpHelper *httphelper = [[[HttpHelper alloc]init]autorelease];
     Clientversion *version = [httphelper getVersion];
     if(httphelper.error){
         //_error = [httphelper.error retain];
@@ -514,7 +514,6 @@
             [self performSelectorOnMainThread:@selector(showupdatealert) withObject:nil waitUntilDone:NO];
         }
     }
-    [httphelper release];
     [pool release];
 }
 

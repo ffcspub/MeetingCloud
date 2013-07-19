@@ -11,12 +11,15 @@
 #import "ShareManager.h"
 #import "UITools.h"
 #import "FileInfoViewController.h"
+#import "SVPullToRefresh.h"
 
 #define HUDTAG_EMAIL 111
 
 @interface ShareViewController (private)
 
 -(void) loadDatas;
+
+-(void) reloadDatas;
 
 -(void) sendEmail:(NSString *)email;
 
@@ -48,8 +51,27 @@
     hud.delegate = self;
     [self.view addSubview:hud];
     [hud release];
-    [hud showWhileExecuting:@selector(loadDatas) onTarget:self withObject:nil animated:YES];
+    [hud showWhileExecuting:@selector(reloadDatas) onTarget:self withObject:nil animated:YES];
     // Do any additional setup after loading the view from its nib.
+    
+    _fileArray = [[NSMutableArray alloc] init];
+    
+    __block typeof(self) bself = self;
+    
+    [self.tableView addInfiniteScrollingWithActionHandler:^{
+        [bself loadDatas];
+    }];
+    [self.tableView addPullToRefreshWithActionHandler:^{
+        [bself reloadDatas];
+    }];
+    
+    [self.tableView.pullToRefreshView setTitle:@"下拉刷新" forState:SVPullToRefreshStateAll];
+    [self.tableView.pullToRefreshView setTitle:@"松开刷新" forState:SVPullToRefreshStateTriggered];
+    [self.tableView.pullToRefreshView setTitle:@"正在加载" forState:SVPullToRefreshStateLoading];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+    
 }
 
 - (void)viewDidUnload
@@ -180,7 +202,6 @@
             [sheet release];
         }
     }
-    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
@@ -212,18 +233,40 @@
 @implementation ShareViewController(private)
 
 -(void) loadDatas{
-    if (_fileArray) {
-        [_fileArray release];
-        _fileArray = nil;
-    }
+//    if (_fileArray) {
+//        [_fileArray release];
+//        _fileArray = nil;
+//    }
+    pageNum++;
     HttpHelper *helper = [[HttpHelper alloc]init];
-    NSArray *array = [helper getConferenceFilesByConferenceId:[ShareManager getInstance].conference.conferenceId userId:[ShareManager getInstance].userInfo.userId];
+    NSArray *array = [helper getConferenceFilesPageByConferenceId:[ShareManager getInstance].conference.conferenceId userId:[ShareManager getInstance].userInfo.userId pageNum:[NSString stringWithFormat:@"%i", pageNum]];
     if (helper.error) {
         _error = [helper.error retain];
     }else {
-        _fileArray = [array retain];
+        if (_fileArray) {
+            if (pageNum == 1) {
+                [_fileArray removeAllObjects];
+            }
+        }
+        [_fileArray addObjectsFromArray:array];  
     }
+    isLastPage = helper.isLastPage;
     [helper release];
+    
+    [self.tableView.infiniteScrollingView stopAnimating];
+    [self.tableView.pullToRefreshView stopAnimating];
+    if (isLastPage) {
+        [self.tableView setShowsInfiniteScrolling:NO];
+    } else {
+        [self.tableView setShowsInfiniteScrolling:YES];
+    }
+    
+    [self.tableView reloadData];
+}
+
+-(void)reloadDatas{
+    pageNum = 0;
+    [self loadDatas];
 }
 
 -(void) sendEmail:(NSString *)email{

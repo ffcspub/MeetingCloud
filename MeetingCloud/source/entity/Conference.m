@@ -32,6 +32,7 @@
 @synthesize headimg;
 @synthesize doapplyfor;
 @synthesize isTalkmessageGrouping;
+@synthesize checkinType;
 
 
 -(void) dealloc{
@@ -56,6 +57,7 @@
     [headimg release];
     [doapplyfor release];
     [isTalkmessageGrouping release];
+    [checkinType release];
     [super dealloc];
 }
 
@@ -82,6 +84,7 @@
     toolbean.headimg = [dic objectToStringForKey:@"headimg"];
     toolbean.doapplyfor = [dic objectToStringForKey:@"doapplyfor"];
     toolbean.isTalkmessageGrouping = [dic objectToStringForKey:@"isTalkmessageGrouping"];
+    toolbean.checkinType = [dic objectToStringForKey:@"checkinType"];
     return toolbean;
 }
 

@@ -11,9 +11,12 @@
 #import "MBProgressHUD.h"
 
 @interface ShareViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,MBProgressHUDDelegate,UIActionSheetDelegate,UIAlertViewDelegate>{
-    NSArray *_fileArray;
+    NSMutableArray *_fileArray;
     NSError *_error;
     ConferenceFiles *_currentfile;
+    int pageNum;
+    int numPerPage;
+    BOOL isLastPage;
 }
 
 @property(nonatomic,retain) IBOutlet UITableView *tableView;

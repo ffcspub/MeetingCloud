@@ -27,6 +27,7 @@
 #import "UrlViewController.h"
 #import "BWStatusBarOverlay.h"
 #import "UserCheckCodeViewController.h"
+#import "ConferenceCheckViewController.h"
 
 @interface MainViewController (private)
 
@@ -230,7 +231,8 @@
     ModuleConference *module = nil;
     module = [_modules objectAtIndex:index];
     int functionId = [module.functionid intValue];
-    NSString  *iconName = module.icon;
+//    NSString  *iconName = module.icon;
+    NSString *iconName = @"pic%i.png";
     
     NSLog(@"%d:%@",functionId,module.name);
     switch (functionId) {
@@ -289,13 +291,19 @@
             [btn addTarget:self action:@selector(loadUrlView:) forControlEvents:UIControlEventTouchUpInside];
             break;
     }
-    if (iconName) {
-        NSString *name = [[iconName stringByReplacingOccurrencesOfString:@"user/" withString:@""]
-                          stringByReplacingOccurrencesOfString:@".gif" withString:@""];
-        [btn setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"pic%@.png",name]] forState:UIControlStateNormal];
-    }else {
-        [btn setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"pic0.png"]] forState:UIControlStateNormal];
+    if (!(functionId == 0)) {
+        [btn setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:iconName,functionId]] forState:UIControlStateNormal];
+    }else{
+        [btn setBackgroundImage:[UIImage imageNamed:@"pic1.png"] forState:UIControlStateNormal];
     }
+    
+//    if (iconName) {
+//        NSString *name = [[iconName stringByReplacingOccurrencesOfString:@"user/" withString:@""]
+//                          stringByReplacingOccurrencesOfString:@".gif" withString:@""];
+//        [btn setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"pic%@.png",name]] forState:UIControlStateNormal];
+//    }else {
+//        [btn setBackgroundImage:[UIImage imageNamed:[NSString stringWithFormat:@"pic0.png"]] forState:UIControlStateNormal];
+//    }
     
     return btn;
 }
@@ -378,9 +386,15 @@
         [self.navigationController pushViewController:vlc animated:YES];
         [vlc release];
     }else{
-        UserCheckCodeViewController *vlc = [[UserCheckCodeViewController alloc]initWithNibName:@"UserCheckCodeViewController" bundle:nil];
-        [self.navigationController pushViewController:vlc animated:YES];
-        [vlc release];
+        if ([@"1" isEqualToString:[ShareManager getInstance].conference.checkinType]) {
+            ConferenceCheckViewController *vlc = [[ConferenceCheckViewController alloc] initWithNibName:@"ConferenceCheckViewController" bundle:nil];
+            [self.navigationController pushViewController:vlc animated:YES];
+            [vlc release];
+        } else {
+            UserCheckCodeViewController *vlc = [[UserCheckCodeViewController alloc]initWithNibName:@"UserCheckCodeViewController" bundle:nil];
+            [self.navigationController pushViewController:vlc animated:YES];
+            [vlc release];
+        }
     }
 }
 

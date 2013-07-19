@@ -337,6 +337,17 @@
 }
 
 /**
+ * 查询通讯录分页列表信息
+ */
+-(NSArray *) getUserGroupPageByConferenceId:(NSString *) conferenceId ContactgroupId:(NSString *)groupId pageNum:(NSString *)pageNum{
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:conferenceId forKey:@"tdConferenceId"];
+    [dic setObject:pageNum forKey:@"pageNum"];
+    UserInfo *toolbean = [[[UserInfo alloc]init]autorelease];
+    return [self httpQuerylistByUrlkey:URL_USERGROUPPAGE_GET postDicsIncludePage:dic toolsBean:toolbean];
+}
+
+/**
  * 查询收件箱信息
  */
 -(NSArray *) getReceivePrivatemessagesByConferenceId:(NSString *)conferenceId userId:(NSString *)userId{
@@ -406,6 +417,19 @@
     return [self httpQuerylistByUrlkey:URL_CONFERENCEFILES_GET postDics:dic keyName:@"conferenceFiles" toolsBean:toolbean];
 }
 
+/**
+ * 获取共享资料分页列表
+ */
+-(NSArray *) getConferenceFilesPageByConferenceId:(NSString *)conferenceId userId:(NSString *)userId pageNum:(NSString *)pageNum{
+    //    NSString *numPerPage = @"2";
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:conferenceId forKey:@"conferenceId"];
+    [dic setObject:userId forKey:@"userId"];
+    [dic setObject:pageNum forKey:@"pageNum"];
+    //    [dic setObject:numPerPage forKey:@"numPerPage"];
+    ConferenceFiles *toolbean = [[[ConferenceFiles alloc]init]autorelease];
+    return [self httpQuerylistByUrlkey:URL_CONFERENCEFILESPAGE_GET postDicsIncludePage:dic toolsBean:toolbean];
+}
 
 /**
  * 提交建议
@@ -517,6 +541,18 @@
     
 }
 
+/**
+ * 会议签到
+ */
+-(void) checkCodeByUserId:(NSString *)userId qrcode:(NSString *)qrcode imei:(NSString *)imei
+{
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    [dic setObject:userId forKey:@"userId"];
+    [dic setObject:qrcode forKey:@"qrcode"];
+    [dic setObject:imei forKey:@"imei"];
+    [self dicByUrlkey:URL_CONFERENCECHECK postDics:dic];
+}
+
 @end
 
 @implementation HttpHelper(Private)
@@ -528,7 +564,7 @@
         if (returnCode) {
             if([@"1" isEqualToString:returnCode]){
                 _resultState = YES;
-                self.msg = [dictionary objectForKey:@"msg"];
+                _msg = [[dictionary objectForKey:@"msg"]retain];
                 NSDictionary *page = [dictionary objectForKey:@"page"];
                 if (page) {
                     NSNumber *isLastPage = [page objectForKey:@"isLastPage"];

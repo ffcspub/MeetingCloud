@@ -960,9 +960,12 @@
 		18EC432B15AD7017007AA826 /* UserCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EC432915AD7016007AA826 /* UserCheckViewController.xib */; };
 		18EECF9815B7E69E00007D75 /* app.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EECF9615B7E69E00007D75 /* app.png */; };
 		18EECF9915B7E69E00007D75 /* app@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EECF9715B7E69E00007D75 /* app@2x.png */; };
+		B71A21F81796BF6300FA069E /* ConferenceCheckViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B71A21F61796BF6300FA069E /* ConferenceCheckViewController.mm */; };
+		B71A21F91796BF6300FA069E /* ConferenceCheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B71A21F71796BF6300FA069E /* ConferenceCheckViewController.xib */; };
 		B72919FB175DD3CF000136CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B72919F8175DD3CF000136CA /* Default-568h@2x.png */; };
 		B72919FC175DD3CF000136CA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B72919F9175DD3CF000136CA /* Default.png */; };
 		B72919FD175DD3CF000136CA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B72919FA175DD3CF000136CA /* Default@2x.png */; };
+		B73188081797C1970006990B /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = B73188071797C1970006990B /* OpenUDID.m */; };
 		B73E232F178B908600358C00 /* ChatRoomGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B73E232D178B908600358C00 /* ChatRoomGroupViewController.m */; };
 		B73E2330178B908600358C00 /* ChatRoomGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B73E232E178B908600358C00 /* ChatRoomGroupViewController.xib */; };
 		B73E2336178B9BF500358C00 /* TalkmessageGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B73E2335178B9BF500358C00 /* TalkmessageGroup.m */; };
@@ -2180,9 +2183,14 @@
 		18EC432915AD7016007AA826 /* UserCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserCheckViewController.xib; sourceTree = "<group>"; };
 		18EECF9615B7E69E00007D75 /* app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app.png; sourceTree = "<group>"; };
 		18EECF9715B7E69E00007D75 /* app@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app@2x.png"; sourceTree = "<group>"; };
+		B71A21F51796BF6300FA069E /* ConferenceCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConferenceCheckViewController.h; sourceTree = "<group>"; };
+		B71A21F61796BF6300FA069E /* ConferenceCheckViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ConferenceCheckViewController.mm; sourceTree = "<group>"; };
+		B71A21F71796BF6300FA069E /* ConferenceCheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConferenceCheckViewController.xib; sourceTree = "<group>"; };
 		B72919F8175DD3CF000136CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B72919F9175DD3CF000136CA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B72919FA175DD3CF000136CA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B73188061797C1970006990B /* OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenUDID.h; sourceTree = "<group>"; };
+		B73188071797C1970006990B /* OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenUDID.m; sourceTree = "<group>"; };
 		B73E232C178B908600358C00 /* ChatRoomGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRoomGroupViewController.h; sourceTree = "<group>"; };
 		B73E232D178B908600358C00 /* ChatRoomGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRoomGroupViewController.m; sourceTree = "<group>"; };
 		B73E232E178B908600358C00 /* ChatRoomGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRoomGroupViewController.xib; sourceTree = "<group>"; };
@@ -2769,6 +2777,9 @@
 				18EC432715AD7015007AA826 /* UserCheckViewController.h */,
 				18EC432815AD7015007AA826 /* UserCheckViewController.mm */,
 				18EC432915AD7016007AA826 /* UserCheckViewController.xib */,
+				B71A21F51796BF6300FA069E /* ConferenceCheckViewController.h */,
+				B71A21F61796BF6300FA069E /* ConferenceCheckViewController.mm */,
+				B71A21F71796BF6300FA069E /* ConferenceCheckViewController.xib */,
 				180A39AF15AEC67E0022C52A /* MessageViewController.h */,
 				180A39B015AEC67F0022C52A /* MessageViewController.m */,
 				180A39B115AEC67F0022C52A /* MessageViewController.xib */,
@@ -2863,6 +2874,7 @@
 		188987621581E4C500306D0A /* Utitily */ = {
 			isa = PBXGroup;
 			children = (
+				B73188051797C1970006990B /* OpenUDID */,
 				18AD315116A7F80B008EBD76 /* miniThree20 */,
 				18A1D56D15BD4BDA006AF874 /* BWStatusBarOverlay */,
 				180A397715AEBC110022C52A /* MWPhotoBrowser */,
@@ -3930,6 +3942,15 @@
 			path = LeveyPopListView;
 			sourceTree = "<group>";
 		};
+		B73188051797C1970006990B /* OpenUDID */ = {
+			isa = PBXGroup;
+			children = (
+				B73188061797C1970006990B /* OpenUDID.h */,
+				B73188071797C1970006990B /* OpenUDID.m */,
+			);
+			path = OpenUDID;
+			sourceTree = "<group>";
+		};
 		B7C07059178ABDED006397C7 /* SVPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
@@ -4588,6 +4609,7 @@
 				B72919FD175DD3CF000136CA /* Default@2x.png in Resources */,
 				B73E2330178B908600358C00 /* ChatRoomGroupViewController.xib in Resources */,
 				B7491B2C179643A400F3609B /* CreateChatRoomGroupViewController.xib in Resources */,
+				B71A21F91796BF6300FA069E /* ConferenceCheckViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4909,6 +4931,8 @@
 				B73E232F178B908600358C00 /* ChatRoomGroupViewController.m in Sources */,
 				B73E2336178B9BF500358C00 /* TalkmessageGroup.m in Sources */,
 				B7491B2B179643A400F3609B /* CreateChatRoomGroupViewController.m in Sources */,
+				B71A21F81796BF6300FA069E /* ConferenceCheckViewController.mm in Sources */,
+				B73188081797C1970006990B /* OpenUDID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -5111,8 +5135,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = armv7;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeetingCloud/MeetingCloud-Prefix.pch";
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;

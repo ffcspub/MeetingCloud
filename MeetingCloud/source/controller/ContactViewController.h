@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface ContactViewController : UIViewController{
-    NSArray *_datas;
+    NSMutableArray *_datas;
     NSArray *_resultDatas;
     NSError *_error;
     NSDictionary *_aIndexDictionary;
+    int pageNum;
+    int numPerPage;
+    BOOL isLastPage;
 }
 
 @property(nonatomic,retain) IBOutlet UITableView *tableView;
